@@ -51,11 +51,3 @@ Precios en `src/data/planes.json` (Esencial $4.990, Regional $14.990, Destacado 
 
 Title y description únicos, canonical, Open Graph, JSON-LD (Organization, WebSite, BreadcrumbList, ItemList de empresas, FAQPage, Article, Service/Offer), `sitemap.xml` y `llms.txt` generados, `robots.txt` que permite rastreadores de IA, resúmenes "En breve" al inicio y FAQs por página.
 
-## Pendientes antes de publicar
-
-- Las 209 empresas vienen de fichas públicas de Google Maps (más 2 del Directorio Mercantil) y ninguna está verificada por llamada. Revisa también los términos de uso de Google Maps antes de redistribuir los datos.
-- Varias fichas comparten teléfono: se modelaron como un solo operador con cobertura en otras comunas (`cobertura.comunas`). Las de baja confianza están anotadas en `interno.nota`.
-- Revisar los textos legales (términos y privacidad) con asesoría.
-- Confirmar el GTM y la verificación de Search Console heredados en `src/config.mjs`.
-- Agregar un correo de contacto si se quiere mostrar.
-- Hoy 77 de 90 comunas tienen al menos una empresa propia y 80 tienen página (3 de la RM solo con cobertura regional). Faltan Juan Fernández, Isla de Pascua, Calle Larga, San Esteban, Cabildo, Petorca, La Cruz, Santo Domingo, Putaendo y Santa María; ampliar a medida que las empresas se registren desde `/precios/`.
