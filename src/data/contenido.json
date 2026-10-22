@@ -1,0 +1,411 @@
+[
+  {
+    "slug": "grua-para-autos",
+    "titleTag": "Grúa para autos en Santiago y Valparaíso: cómo pedirla | GrúaFácil",
+    "description": "Qué tipo de grúa necesita tu auto, qué datos tener listos y cómo llamar a servicios de grúa por comuna en la Región Metropolitana y Valparaíso.",
+    "h1": "Grúa para autos: cómo pedirla y qué tener a mano",
+    "lead": "Si tu auto quedó detenido por una panne, un choque o una batería descargada, necesitas una grúa que lo traslade sin dañarlo. Aquí ves cómo elegir el tipo de grúa y a quién llamar en tu comuna.",
+    "resumen": "Para un auto particular se usa una grúa de plataforma (cama baja) o una de arrastre. Ten a mano tu ubicación exacta, la marca y el modelo, si el auto avanza o está inmovilizado, y el destino. Confirma el precio total antes de que la grúa salga.",
+    "mostrarComunas": true,
+    "cta": "directorio",
+    "sections": [
+      {
+        "id": "tipos",
+        "h2": "Tipos de grúa para autos",
+        "p": [
+          "La grúa de plataforma o cama baja carga el auto completo sobre una cama que baja al suelo. El auto viaja sin tocar el pavimento. Suele recomendarse para autos con tracción en las cuatro ruedas, vehículos bajos, eléctricos y autos con daños en la dirección o la transmisión.",
+          "La grúa de arrastre levanta el eje delantero o el trasero y arrastra el auto sobre las ruedas restantes. Es habitual en traslados cortos de autos con tracción simple y sin daños en ruedas o suspensión."
+        ]
+      },
+      {
+        "id": "cuando-llamar",
+        "h2": "Cuándo llamar a una grúa",
+        "ul": [
+          "Panne mecánica o eléctrica que impide seguir manejando.",
+          "Batería descargada que no parte con ayuda externa.",
+          "Neumático dañado y sin repuesto utilizable.",
+          "Accidente o choque con un auto que no puede moverse por sus propios medios.",
+          "Traslado programado a un taller, a tu casa o a otra ciudad."
+        ]
+      },
+      {
+        "id": "datos",
+        "h2": "Qué datos tener listos al llamar",
+        "ol": [
+          "Tu ubicación exacta: calle y número, o kilómetro y sentido si estás en una autopista.",
+          "Marca, modelo, año y tipo de transmisión del auto (manual o automática).",
+          "Si el auto avanza o está inmovilizado (frenos o dirección bloqueados).",
+          "El destino: taller, casa u otra dirección.",
+          "Un teléfono de contacto y la patente del auto."
+        ]
+      },
+      {
+        "id": "tarifa",
+        "h2": "Cómo se calcula la tarifa",
+        "p": [
+          "Cada empresa define su tarifa y suele considerar la distancia, el horario (noche, fines de semana y feriados), el tipo de grúa y la dificultad del rescate. GrúaFácil no fija precios. Pide siempre el valor total antes de que la grúa salga y confirma qué incluye."
+        ]
+      },
+      {
+        "id": "consejos",
+        "h2": "Consejos para un traslado seguro",
+        "ul": [
+          "Enciende las balizas y coloca los triángulos de emergencia antes de esperar la grúa.",
+          "Retira objetos de valor y documentos del auto.",
+          "Toma fotos del estado del auto antes de que lo carguen.",
+          "Anota el nombre de la empresa y la patente de la grúa.",
+          "Si estás en una vía rápida, espera en un lugar seguro, lejos de la calzada."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuánto demora en llegar una grúa?",
+        "a": "Depende de la distancia, el tráfico y la hora. Pregunta el tiempo estimado de llegada cuando llames y pide que te confirmen la hora aproximada."
+      },
+      {
+        "q": "¿Pueden llevar mi auto a un taller en otra comuna?",
+        "a": "Muchas empresas hacen traslados dentro de la ciudad y también hacia otras comunas o regiones. Indica el destino al llamar y confirma el valor total del recorrido."
+      },
+      {
+        "q": "¿Qué grúa necesita un auto 4x4, automático o eléctrico?",
+        "a": "Suele recomendarse una grúa de plataforma, porque el auto viaja sin girar las ruedas. Consulta el manual del fabricante y avisa al operador del tipo de tracción y transmisión."
+      }
+    ]
+  },
+  {
+    "slug": "grua-para-motos",
+    "titleTag": "Grúa para motos en Santiago y Valparaíso: traslado seguro | GrúaFácil",
+    "description": "Cómo trasladar una moto con grúa: qué equipo se necesita, qué informar al llamar y cómo encontrar servicios por comuna en la Región Metropolitana y Valparaíso.",
+    "h1": "Grúa para motos: cómo trasladarla sin daños",
+    "lead": "Una moto necesita un traslado distinto al de un auto: rampa, amarres adecuados y un operador que sepa cargarla. No todas las grúas lo hacen, por eso conviene preguntar antes.",
+    "resumen": "Pregunta siempre si la empresa traslada motos. Informa marca, modelo, peso aproximado y si la moto rueda o quedó bloqueada. Pide que la amarren con correas y rampa, y toma fotos antes de la carga.",
+    "mostrarComunas": true,
+    "cta": "directorio",
+    "sections": [
+      {
+        "id": "equipo",
+        "h2": "Qué necesita el traslado de una moto",
+        "p": [
+          "Lo habitual es una grúa de plataforma con rampa de carga y puntos de amarre. La moto se sube y se asegura con correas de amarre para que no se mueva durante el viaje. Un operador con experiencia cuida carenados, manubrio y escapes."
+        ],
+        "ul": [
+          "Rampa o plataforma baja para subir la moto sin esfuerzo.",
+          "Correas de amarre en buen estado.",
+          "Protecciones para no rayar carenados ni estanque."
+        ]
+      },
+      {
+        "id": "datos",
+        "h2": "Qué informar al llamar",
+        "ol": [
+          "Marca, modelo y cilindrada, o el peso aproximado de la moto.",
+          "Si rueda libremente o quedó bloqueada (rueda trabada, manubrio dañado).",
+          "Si tiene daños visibles por una caída o un choque.",
+          "Tu ubicación exacta y el destino.",
+          "Si lleva maletas o accesorios que puedan interferir con la carga."
+        ]
+      },
+      {
+        "id": "preparar",
+        "h2": "Cómo preparar la moto antes de la grúa",
+        "ul": [
+          "Apágala y retira la llave.",
+          "Saca maletas, bolsos y objetos sueltos.",
+          "Toma fotos del estado de la moto desde varios ángulos.",
+          "Avisa al operador de cualquier daño previo."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Todas las grúas llevan motos?",
+        "a": "No. Algunas empresas solo trasladan autos o vehículos pesados. Antes de que salga la grúa, pregunta si cuentan con rampa y amarres para motos."
+      },
+      {
+        "q": "¿Se puede trasladar una moto en una grúa de arrastre?",
+        "a": "Lo más seguro es una plataforma con rampa. Si la empresa propone otra forma de traslado, pide que te expliquen cómo asegurarán la moto."
+      },
+      {
+        "q": "¿Qué hago si la moto se cayó y no puedo levantarla?",
+        "a": "Ponte a salvo primero. Después llama a una grúa y explica que la moto está en el suelo, para que lleven el equipo y las personas necesarias para levantarla."
+      }
+    ]
+  },
+  {
+    "slug": "grua-para-vehiculos-pesados",
+    "titleTag": "Grúa para camiones, buses y vehículos pesados | GrúaFácil",
+    "description": "Cómo pedir una grúa para camiones, buses o maquinaria: qué capacidad necesita el equipo, qué datos informar y cómo encontrar servicios en la RM y Valparaíso.",
+    "h1": "Grúa para camiones, buses y vehículos pesados",
+    "lead": "El rescate de un vehículo pesado exige un equipo con la capacidad correcta. Una grúa liviana no puede mover un camión cargado, y un mal cálculo puede dañar el vehículo o poner en riesgo a las personas.",
+    "resumen": "Informa el tipo de vehículo, su peso bruto, si lleva carga y las condiciones del lugar. Confirma que la empresa tiene un equipo con capacidad suficiente y que puede llegar hasta tu ubicación. Muchas empresas de pesados cubren regiones completas.",
+    "mostrarComunas": true,
+    "cta": "directorio",
+    "sections": [
+      {
+        "id": "equipos",
+        "h2": "Qué equipos se usan",
+        "p": [
+          "Para vehículos pesados se usan grúas de rescate de mayor capacidad, camiones de arrastre y, según el caso, grúas pluma para levantar o reposicionar. La elección depende del peso, del daño y del lugar donde quedó el vehículo."
+        ]
+      },
+      {
+        "id": "datos",
+        "h2": "Qué datos entregar al llamar",
+        "ol": [
+          "Tipo de vehículo: camión, tractocamión, bus, remolque o maquinaria.",
+          "Peso bruto aproximado y si lleva carga.",
+          "Largo, alto y configuración de ejes.",
+          "Estado: si rueda, si está volcado, atascado o con daños en la dirección.",
+          "Ubicación exacta, tipo de camino y acceso para maniobrar.",
+          "Destino del traslado."
+        ]
+      },
+      {
+        "id": "coordinar",
+        "h2": "Cómo coordinar el rescate",
+        "ul": [
+          "Confirma la capacidad del equipo antes de que salga.",
+          "Pregunta si el servicio incluye el traspaso de la carga o solo el arrastre del vehículo.",
+          "Si el vehículo está en una ruta, avisa a los servicios de la vía y señaliza el lugar.",
+          "Pide el valor total y las condiciones de pago por escrito, cuando sea posible."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Puede una grúa de auto llevar un camión?",
+        "a": "No. El equipo debe tener capacidad para el peso del vehículo y su carga. Una grúa liviana puede fallar o dañar el camión."
+      },
+      {
+        "q": "¿Atienden fuera de la ciudad?",
+        "a": "Muchas empresas de vehículos pesados cubren rutas y regiones completas. Indica el kilómetro y el sentido de la ruta al llamar."
+      },
+      {
+        "q": "¿Qué es una grúa pluma?",
+        "a": "Es un camión con un brazo articulado que levanta cargas o vehículos. Se usa cuando hace falta elevar, mover o reposicionar un vehículo o una carga."
+      }
+    ]
+  },
+  {
+    "slug": "que-hacer-si-necesitas-una-grua",
+    "titleTag": "Qué hacer si necesitas una grúa: guía paso a paso | GrúaFácil",
+    "description": "Guía rápida para cuando tu vehículo se detiene: cómo ponerte a salvo, qué datos reunir, cómo elegir una grúa y qué revisar antes de pagar.",
+    "h1": "Qué hacer si necesitas una grúa: guía paso a paso",
+    "lead": "Si tu vehículo se detuvo en la calle o en la carretera, lo primero es tu seguridad. Después viene elegir a quién llamar y entregar bien los datos. Estos son los pasos.",
+    "resumen": "Ponte a salvo, señaliza el vehículo, reúne tu ubicación y los datos del vehículo, llama a una grúa de tu comuna, confirma precio y tiempo de llegada, y revisa el vehículo al momento de la entrega.",
+    "mostrarComunas": true,
+    "cta": "directorio",
+    "sections": [
+      {
+        "id": "pasos",
+        "h2": "Los pasos, en orden",
+        "ol": [
+          "Ponte a salvo. Si puedes, aparta el vehículo de la calzada y sal por el lado más seguro.",
+          "Si hay heridos o riesgo para las personas, llama primero a emergencias: 131 (SAMU), 132 (Bomberos) o 133 (Carabineros).",
+          "Enciende las balizas y coloca los triángulos de emergencia a una distancia segura.",
+          "Ubica tu comuna en GrúaFácil y elige una empresa de la lista.",
+          "Toca el botón Llamar y entrega tu ubicación, el tipo de vehículo, su estado y el destino.",
+          "Confirma el precio total y el tiempo estimado de llegada.",
+          "Cuando llegue la grúa, revisa el nombre de la empresa, toma fotos del vehículo y pide un comprobante."
+        ]
+      },
+      {
+        "id": "elegir",
+        "h2": "Cómo elegir entre varias empresas",
+        "ul": [
+          "Prefiere empresas con base en tu comuna: suelen llegar más rápido.",
+          "Pregunta si atienden el tipo de vehículo que tienes: auto, moto o pesado.",
+          "Confirma el horario si es de noche o fin de semana.",
+          "Compara el precio total llamando a dos empresas si no hay urgencia."
+        ]
+      },
+      {
+        "id": "evitar",
+        "h2": "Qué evitar",
+        "ul": [
+          "Aceptar un servicio sin conocer el precio total.",
+          "Pagar por adelantado a alguien que no identificó su empresa.",
+          "Dejar documentos o llaves sin saber a dónde se lleva el vehículo."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué hago primero si mi vehículo se detiene en una autopista?",
+        "a": "Enciende las balizas, aparta el vehículo hacia la berma si puedes y espera en un lugar seguro, lejos de la calzada. Si hay riesgo o heridos, llama a emergencias al 131, 132 o 133."
+      },
+      {
+        "q": "¿Qué información debo entregar a la empresa de grúas?",
+        "a": "Tu ubicación exacta, el tipo y modelo del vehículo, si avanza o está inmovilizado, el destino y un teléfono de contacto."
+      }
+    ]
+  },
+  {
+    "slug": "preguntas-frecuentes",
+    "titleTag": "Preguntas frecuentes sobre grúas y el directorio | GrúaFácil",
+    "description": "Respuestas sobre cómo funciona el directorio de grúas de GrúaFácil, cuánto cuesta una grúa, cómo contactar una empresa y cómo aparecer en los resultados.",
+    "h1": "Preguntas frecuentes",
+    "lead": "Respuestas cortas sobre cómo usar el directorio de grúas, cómo se ordenan las empresas y cómo aparecer en los resultados.",
+    "mostrarComunas": true,
+    "faqsGenerales": true,
+    "cta": "empresas",
+    "sections": [],
+    "faqs": []
+  },
+  {
+    "slug": "sobre-gruafacil",
+    "titleTag": "Sobre GrúaFácil: directorio de grúas por comuna | GrúaFácil",
+    "description": "Qué es GrúaFácil, cómo se arma el directorio de grúas por comuna, cómo se ordenan las empresas y qué no hacemos.",
+    "h1": "Sobre GrúaFácil",
+    "lead": "GrúaFácil es un directorio de servicios de grúa organizado por comuna en la Región Metropolitana y la Región de Valparaíso. Su objetivo es que alguien con el vehículo detenido encuentre un teléfono de una grúa cercana en pocos segundos, desde su celular.",
+    "resumen": "GrúaFácil es un directorio. No despacha grúas ni cobra por el servicio: te muestra empresas con su teléfono para que las llames directamente.",
+    "mostrarComunas": true,
+    "cta": "empresas",
+    "sections": [
+      {
+        "id": "que-es",
+        "h2": "Qué es GrúaFácil",
+        "p": [
+          "GrúaFácil nació como una aplicación para pedir grúas. Hoy es un directorio web: cada comuna tiene su lista de empresas, cada empresa tiene un botón para llamar, y el sitio funciona pensando en quien lo abre desde el celular, muchas veces desde su propio vehículo."
+        ]
+      },
+      {
+        "id": "datos",
+        "h2": "De dónde salen los datos",
+        "p": [
+          "Los datos de contacto provienen de fuentes públicas y pueden cambiar con el tiempo. La fecha de la última actualización aparece en cada página. Como el servicio lo presta cada empresa, los horarios, los tipos de vehículo que atienden y las tarifas deben confirmarse al llamar."
+        ]
+      },
+      {
+        "id": "orden",
+        "h2": "Cómo se ordenan las empresas",
+        "p": [
+          "Las empresas con plan Destacado ocupan los primeros puestos de su región, y se identifican con una etiqueta. Después aparecen las de plan Regional y Esencial, y luego las fichas gratuitas. A igualdad de plan, se prioriza a las que tienen base en la comuna y luego se ordena por nombre."
+        ]
+      },
+      {
+        "id": "no-hacemos",
+        "h2": "Qué no hacemos",
+        "ul": [
+          "No despachamos grúas ni coordinamos el traslado.",
+          "No cobramos el servicio ni intermediamos pagos entre tú y la empresa.",
+          "No fijamos tarifas ni tiempos de llegada."
+        ]
+      }
+    ],
+    "faqs": []
+  },
+  {
+    "slug": "terminos",
+    "titleTag": "Términos y condiciones | GrúaFácil",
+    "description": "Términos y condiciones de uso del directorio de grúas GrúaFácil y de los planes para empresas.",
+    "h1": "Términos y condiciones",
+    "lead": "Estas condiciones regulan el uso del sitio gruafacil.cl y los planes para empresas de grúas.",
+    "mostrarComunas": false,
+    "cta": "",
+    "sections": [
+      {
+        "id": "servicio",
+        "h2": "1. Naturaleza del servicio",
+        "p": [
+          "GrúaFácil es un directorio informativo. Publica los datos de contacto de empresas de grúa para que los usuarios las contacten directamente. GrúaFácil no presta servicios de grúa, no despacha vehículos y no es parte del contrato entre el usuario y la empresa."
+        ]
+      },
+      {
+        "id": "informacion",
+        "h2": "2. Información publicada",
+        "p": [
+          "Los datos del directorio (teléfonos, horarios, tipos de vehículo, direcciones) son referenciales. Pueden cambiar sin aviso. El usuario debe confirmar con la empresa la disponibilidad, el tiempo de llegada y el precio antes de aceptar el servicio."
+        ]
+      },
+      {
+        "id": "responsabilidad",
+        "h2": "3. Responsabilidad",
+        "p": [
+          "El servicio de grúa es responsabilidad exclusiva de la empresa que lo presta. GrúaFácil no responde por daños al vehículo, demoras, cobros ni incumplimientos de las empresas listadas."
+        ]
+      },
+      {
+        "id": "planes",
+        "h2": "4. Planes para empresas",
+        "p": [
+          "Las empresas de grúas pueden contratar planes mensuales para mejorar su visibilidad en el directorio, según lo publicado en la página de precios. Los valores se expresan en pesos chilenos (CLP) por mes. Al enviar el formulario, la empresa solicita que la contactemos para validar sus datos y coordinar la activación del plan.",
+          "Las empresas que contraten visibilidad aceptan que su ficha se identifique de acuerdo con el plan, por ejemplo con la etiqueta Destacada."
+        ]
+      },
+      {
+        "id": "veracidad",
+        "h2": "5. Veracidad de los datos de las empresas",
+        "p": [
+          "La empresa que contrata un plan declara que los datos que entrega son verdaderos y que está autorizada para prestar los servicios que informa. GrúaFácil puede retirar fichas con datos falsos o que reciban reclamos fundados."
+        ]
+      },
+      {
+        "id": "propiedad",
+        "h2": "6. Propiedad intelectual",
+        "p": [
+          "El diseño, los textos y la marca GrúaFácil pertenecen a sus titulares. Está prohibido copiar el contenido del sitio de forma masiva sin autorización."
+        ]
+      },
+      {
+        "id": "cambios",
+        "h2": "7. Cambios",
+        "p": [
+          "Podemos actualizar estas condiciones. La versión vigente es la publicada en esta página."
+        ]
+      }
+    ],
+    "faqs": []
+  },
+  {
+    "slug": "privacidad",
+    "titleTag": "Política de privacidad | GrúaFácil",
+    "description": "Qué datos personales recoge GrúaFácil, para qué los usa y cómo puedes ejercer tus derechos.",
+    "h1": "Política de privacidad",
+    "lead": "Explica qué datos personales recogemos cuando usas el sitio o envías el formulario para empresas, para qué los usamos y cuáles son tus derechos.",
+    "mostrarComunas": false,
+    "cta": "",
+    "sections": [
+      {
+        "id": "datos",
+        "h2": "Datos que recogemos",
+        "ul": [
+          "Formulario para empresas de grúas: nombre de la empresa, nombre de contacto, teléfono, correo electrónico, región y comuna, plan de interés, tipos de vehículo que atiende y el mensaje que escribas.",
+          "Navegación: datos técnicos y de uso del sitio (páginas vistas, clics en botones de llamada, tipo de dispositivo), mediante herramientas de analítica como Google Tag Manager."
+        ]
+      },
+      {
+        "id": "uso",
+        "h2": "Para qué usamos los datos",
+        "ul": [
+          "Contactarte para validar los datos de tu empresa y coordinar la activación de un plan.",
+          "Publicar en el directorio los datos de contacto de la empresa que contrata un plan.",
+          "Medir el uso del sitio y mejorarlo."
+        ]
+      },
+      {
+        "id": "proveedores",
+        "h2": "Con quién compartimos los datos",
+        "p": [
+          "Los datos del formulario se procesan mediante la plataforma de hosting y formularios que usa el sitio. No vendemos tus datos a terceros. Podemos compartir datos cuando una ley lo exija."
+        ]
+      },
+      {
+        "id": "derechos",
+        "h2": "Tus derechos",
+        "p": [
+          "Puedes solicitar el acceso, la rectificación o la eliminación de tus datos personales, y oponerte a su tratamiento, conforme a la legislación chilena de protección de datos personales. Para hacerlo, escríbenos a través del formulario de la página de precios, indicando tu solicitud."
+        ]
+      },
+      {
+        "id": "cookies",
+        "h2": "Cookies y analítica",
+        "p": [
+          "El sitio puede usar cookies y herramientas de analítica para medir el uso. Puedes bloquearlas desde la configuración de tu navegador."
+        ]
+      }
+    ],
+    "faqs": []
+  }
+]

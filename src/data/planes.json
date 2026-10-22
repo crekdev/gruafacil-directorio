@@ -1,0 +1,49 @@
+[
+ {
+  "id": "esencial",
+  "nombre": "Esencial",
+  "precio": 4990,
+  "periodo": "mes",
+  "resumen": "Aparece en los resultados de 3 comunas principales.",
+  "cobertura": "3 comunas principales",
+  "incluye": [
+   "Ficha con botón Llamar en 3 comunas a tu elección",
+   "Tu teléfono, horario, dirección y tipos de vehículo",
+   "Visible en páginas de comuna, con apoyo de las páginas por región y por tipo de servicio"
+  ],
+  "destacado": false,
+  "cta": "Quiero el plan Esencial"
+ },
+ {
+  "id": "regional",
+  "nombre": "Regional",
+  "precio": 14990,
+  "periodo": "mes",
+  "resumen": "Aparece en los resultados de toda una región.",
+  "cobertura": "Toda la región (Metropolitana o Valparaíso)",
+  "incluye": [
+   "Todo lo del plan Esencial",
+   "Ficha con botón Llamar en todas las comunas de la región que elijas",
+   "Aparece también en la página de la región",
+   "Prioridad sobre las fichas gratuitas"
+  ],
+  "destacado": false,
+  "cta": "Quiero el plan Regional"
+ },
+ {
+  "id": "destacado",
+  "nombre": "Destacado",
+  "precio": 49990,
+  "periodo": "mes",
+  "resumen": "Aparece entre los 2 primeros puestos en toda la región.",
+  "cobertura": "Toda la región, en los 2 primeros puestos",
+  "incluye": [
+   "Todo lo del plan Regional",
+   "Los 2 primeros puestos en cada comuna de la región",
+   "Etiqueta Destacada en tu ficha",
+   "Cupos limitados: 2 empresas por región"
+  ],
+  "destacado": true,
+  "cta": "Quiero el plan Destacado"
+ }
+]

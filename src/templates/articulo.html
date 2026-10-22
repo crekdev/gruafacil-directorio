@@ -1,0 +1,30 @@
+<div class="wrap">{{> breadcrumbs}}</div>
+<article class="page-head article">
+  <div class="wrap narrow">
+    <h1>{{ h1 }}</h1>
+    <p class="lead">{{ lead }}</p>
+    {{#if resumen}}<div class="summary" role="note"><strong>En breve:</strong> {{ resumen }}</div>{{/if}}
+    <p class="updated">Actualizado: {{ actualizado }}</p>
+    {{#if toc}}
+    <nav class="toc" aria-label="En esta página">
+      <p>En esta página</p>
+      <ul>{{#each toc as t}}<li><a href="#{{ t.id }}">{{ t.h2 }}</a></li>{{/each}}</ul>
+    </nav>
+    {{/if}}
+  </div>
+</article>
+
+{{#each sections as s}}
+<section class="section prose" id="{{ s.id }}">
+  <div class="wrap narrow">
+    <h2>{{ s.h2 }}</h2>
+    {{#each s.p as t}}<p>{{ t }}</p>{{/each}}
+    {{#if s.ul}}<ul class="list">{{#each s.ul as li}}<li>{{ li }}</li>{{/each}}</ul>{{/if}}
+    {{#if s.ol}}<ol class="list">{{#each s.ol as li}}<li>{{ li }}</li>{{/each}}</ol>{{/if}}
+  </div>
+</section>
+{{/each}}
+
+{{#if mostrarComunas}}{{> comunas-links}}{{/if}}
+{{> faq}}
+{{#if ctaEmpresas}}{{> cta-empresas}}{{/if}}

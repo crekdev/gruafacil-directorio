@@ -1,0 +1,12 @@
+{
+  "name": "gruafacil-directorio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Directorio de grúas por comuna (Región Metropolitana y Valparaíso). Sitio estático sin dependencias.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

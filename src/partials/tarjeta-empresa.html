@@ -1,0 +1,22 @@
+<article class="card empresa{{#if e.destacada}} is-featured{{/if}}">
+  <div class="empresa-head">
+    <h3>{{ e.nombre }}</h3>
+    {{#if e.destacada}}<span class="badge badge-accent">Destacada</span>{{/if}}
+    {{#if e.esCobertura}}<span class="badge">Cobertura en la región</span>{{/if}}
+  </div>
+  <ul class="meta">
+    {{#if e.horario}}<li><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg><span>{{ e.horario }}</span></li>{{/if}}
+    {{#if e.direccion}}<li><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg><span>{{ e.direccion }}</span></li>{{/if}}
+    {{#if e.tiposTexto}}<li><svg class="ico" aria-hidden="true"><use href="#i-truck"/></svg><span>{{ e.tiposTexto }}</span></li>{{/if}}
+  </ul>
+  <a id="{{ e.id }}" class="btn btn-call" href="tel:{{ e.telPrincipalHref }}" data-empresa="{{ e.nombre }}" data-comuna="{{ e.comuna }}" data-posicion="{{ e.pos }}" aria-label="Llamar a {{ e.nombre }} al {{ e.telPrincipal }}">
+    <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+    <span class="btn-text">Llamar</span>
+    <span class="btn-tel">{{ e.telPrincipal }}</span>
+  </a>
+  {{#if e.telOtros}}
+  <p class="otros-tel">Otros números:
+    {{#each e.telOtros as t}}<a href="tel:{{ t.href }}">{{ t.texto }}</a>{{#if !last}} · {{/if}}{{/each}}
+  </p>
+  {{/if}}
+</article>

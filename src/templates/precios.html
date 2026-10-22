@@ -1,0 +1,142 @@
+<div class="wrap">{{> breadcrumbs}}</div>
+<section class="page-head">
+  <div class="wrap">
+    <h1>Precios para empresas de grúas</h1>
+    <p class="lead">Suscripción mensual para que tu empresa aparezca en GrúaFácil con un botón Llamar en las comunas donde trabajas. Elige un plan y completa el formulario.</p>
+    <div class="summary" role="note"><strong>En breve:</strong> {{ resumenPlanes }}</div>
+    <p class="updated">Valores en pesos chilenos (CLP) por mes. Actualizado: {{ actualizado }}</p>
+  </div>
+</section>
+
+<section class="section" id="planes" aria-labelledby="planes-titulo">
+  <div class="wrap">
+    <h2 id="planes-titulo">Elige tu plan mensual</h2>
+    <div class="plans">
+      {{#each planes as p}}
+      <article class="plan{{#if p.destacado}} is-featured{{/if}}" id="plan-{{ p.id }}">
+        {{#if p.destacado}}<span class="badge badge-accent plan-flag">Máxima visibilidad</span>{{/if}}
+        <h3>{{ p.nombre }}</h3>
+        <p class="price"><span class="amount">{{ p.precioTexto }}</span> <span class="cur">CLP / mes</span></p>
+        <p class="plan-sum">{{ p.resumen }}</p>
+        <ul class="checks">
+          {{#each p.incluye as inc}}<li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span>{{ inc }}</span></li>{{/each}}
+        </ul>
+        <a class="btn {{ p.btnClase }}" href="#formulario" data-plan="{{ p.id }}">{{ p.cta }}</a>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="comparar" aria-labelledby="comparar-titulo">
+  <div class="wrap">
+    <h2 id="comparar-titulo">Compara los planes</h2>
+    <div class="table-wrap">
+      <table class="compare">
+        <caption class="sr">Comparación de los planes Esencial, Regional y Destacado</caption>
+        <thead>
+          <tr><th scope="col">Qué incluye</th><th scope="col">Esencial</th><th scope="col">Regional</th><th scope="col">Destacado</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Precio mensual</th><td>{{ precios.esencial }}</td><td>{{ precios.regional }}</td><td>{{ precios.destacado }}</td></tr>
+          <tr><th scope="row">Dónde apareces</th><td>3 comunas principales</td><td>Toda la región</td><td>Toda la región</td></tr>
+          <tr><th scope="row">Botón Llamar en tu ficha</th><td>Sí</td><td>Sí</td><td>Sí</td></tr>
+          <tr><th scope="row">Página de la región</th><td>No</td><td>Sí</td><td>Sí</td></tr>
+          <tr><th scope="row">Posición en los resultados</th><td>Sobre las fichas gratuitas</td><td>Sobre las fichas gratuitas</td><td>Entre los 2 primeros puestos</td></tr>
+          <tr><th scope="row">Etiqueta Destacada</th><td>No</td><td>No</td><td>Sí</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted">Región a elección: Metropolitana o Valparaíso. El plan Destacado tiene cupos limitados: 2 empresas por región.</p>
+  </div>
+</section>
+
+<section class="section" id="como-funciona" aria-labelledby="proceso-titulo">
+  <div class="wrap">
+    <h2 id="proceso-titulo">Cómo funciona</h2>
+    <ol class="steps">
+      <li><strong>Envías el formulario</strong> con los datos de tu empresa y el plan que elegiste.</li>
+      <li><strong>Validamos tus datos.</strong> Te contactamos para confirmar el teléfono, las comunas y los tipos de vehículo que atiendes.</li>
+      <li><strong>Activamos tu ficha.</strong> Coordinamos el pago mensual y publicamos tu empresa con su botón Llamar.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="section section-soft" id="formulario" aria-labelledby="form-titulo">
+  <div class="wrap narrow">
+    <h2 id="form-titulo">Quiero que mi empresa aparezca en GrúaFácil</h2>
+    <p class="muted">Completa los datos y te contactamos. Los campos con * son obligatorios.</p>
+    <form class="form" name="grueros-planes" method="POST" action="/gracias/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="grueros-planes">
+      <p class="hp" aria-hidden="true"><label>No completar este campo: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+
+      <div class="field">
+        <label for="f-plan">Plan que te interesa *</label>
+        <select id="f-plan" name="plan" required>
+          <option value="">Elige un plan</option>
+          {{#each planes as p}}<option value="{{ p.id }}">{{ p.nombre }} · {{ p.precioTexto }} CLP/mes</option>{{/each}}
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-empresa">Nombre de la empresa *</label>
+        <input id="f-empresa" name="empresa" type="text" autocomplete="organization" required>
+      </div>
+      <div class="field">
+        <label for="f-nombre">Tu nombre *</label>
+        <input id="f-nombre" name="nombre" type="text" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="f-telefono">Teléfono para el botón Llamar *</label>
+        <input id="f-telefono" name="telefono" type="tel" inputmode="tel" autocomplete="tel" placeholder="+56 9 1234 5678" required>
+      </div>
+      <div class="field">
+        <label for="f-email">Correo electrónico *</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="f-region">Región donde quieres aparecer *</label>
+        <select id="f-region" name="region" required>
+          <option value="">Elige una región</option>
+          {{#each regiones as r}}<option value="{{ r.nombre }}">{{ r.nombre }}</option>{{/each}}
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-comuna">Comuna donde está tu base *</label>
+        <select id="f-comuna" name="comuna_base" required>
+          <option value="">Elige una comuna</option>
+          {{#each grupos as g}}
+          <optgroup label="{{ g.region }}">
+            {{#each g.comunas as c}}<option value="{{ c.nombre }}">{{ c.nombre }}</option>{{/each}}
+          </optgroup>
+          {{/each}}
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-principales">3 comunas principales (plan Esencial)</label>
+        <input id="f-principales" name="comunas_principales" type="text" placeholder="Ej.: Maipú, Santiago, Cerrillos">
+      </div>
+      <fieldset class="field fieldset">
+        <legend>Vehículos que remolcas</legend>
+        <label class="check"><input type="checkbox" name="tipo_autos" value="si"> Autos</label>
+        <label class="check"><input type="checkbox" name="tipo_motos" value="si"> Motos</label>
+        <label class="check"><input type="checkbox" name="tipo_pesados" value="si"> Vehículos pesados</label>
+      </fieldset>
+      <div class="field">
+        <label for="f-atencion">Horario de atención</label>
+        <select id="f-atencion" name="atencion">
+          <option value="">Elige una opción</option>
+          <option value="24 horas">Atiendo las 24 horas</option>
+          <option value="horario definido">Tengo un horario definido</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-mensaje">Mensaje (opcional)</label>
+        <textarea id="f-mensaje" name="mensaje" rows="3"></textarea>
+      </div>
+      <label class="check check-terms"><input type="checkbox" name="acepta" value="si" required> <span>Acepto los <a href="/terminos/">términos y condiciones</a> y la <a href="/privacidad/">política de privacidad</a>. *</span></label>
+      <button class="btn btn-accent btn-block" type="submit">Enviar solicitud</button>
+    </form>
+  </div>
+</section>
+
+{{> faq}}

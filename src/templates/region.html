@@ -1,0 +1,50 @@
+<div class="wrap">{{> breadcrumbs}}</div>
+<section class="page-head">
+  <div class="wrap">
+    <h1>Grúas en la {{ region.nombre }}</h1>
+    <p class="lead">{{ resumenTexto }}</p>
+    <p class="updated">Actualizado: {{ actualizado }}</p>
+  </div>
+</section>
+
+{{#if empresas}}
+<section class="section" id="cobertura-regional" aria-labelledby="cobertura-titulo">
+  <div class="wrap">
+    <h2 id="cobertura-titulo">Grúas con cobertura en toda la región</h2>
+    <p class="muted">Estas empresas atienden varias comunas de la {{ region.nombre }}. Confirma la zona exacta al llamar.</p>
+    <div class="grid grid-2">
+      {{#each empresas as e}}{{> tarjeta-empresa}}{{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+<section class="section section-soft" id="comunas" aria-labelledby="comunas-region-titulo">
+  <div class="wrap">
+    <h2 id="comunas-region-titulo">Comunas de la {{ region.nombre }}</h2>
+    <p class="muted">Las comunas con enlace tienen página propia con empresas y teléfonos. El resto se suma a medida que reunimos datos.</p>
+    {{#each provincias as p}}
+    <h3 class="prov">Provincia de {{ p.nombre }}</h3>
+    <ul class="chips">
+      {{#each p.comunas as c}}
+      <li>{{#if c.url}}<a class="chip" href="{{ c.url }}">{{ c.nombre }}<span class="chip-n">{{ c.total }}</span></a>{{else}}<span class="chip chip-off">{{ c.nombre }}</span>{{/if}}</li>
+      {{/each}}
+    </ul>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section" aria-labelledby="tipos-titulo">
+  <div class="wrap">
+    <h2 id="tipos-titulo">Grúas según tu vehículo</h2>
+    <ul class="link-list">
+      <li><a href="/grua-para-autos/">Grúa para autos</a></li>
+      <li><a href="/grua-para-motos/">Grúa para motos</a></li>
+      <li><a href="/grua-para-vehiculos-pesados/">Grúa para camiones, buses y vehículos pesados</a></li>
+      <li><a href="/que-hacer-si-necesitas-una-grua/">Qué hacer si necesitas una grúa</a></li>
+    </ul>
+  </div>
+</section>
+
+{{> cta-empresas}}
+{{> faq}}

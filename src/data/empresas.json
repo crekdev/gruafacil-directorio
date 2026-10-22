@@ -1,0 +1,3900 @@
+{
+  "actualizado": "2026-10-21",
+  "empresas": [
+    {
+      "id": "gruas-correa-maipu",
+      "nombre": "Grúas Correa Maipú",
+      "telefonos": [
+        "+56 9 8674 9972"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Autopista del Sol con Vespucio Norte",
+      "baseComuna": "maipu",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-fuentes-rm",
+      "nombre": "Grúas Fuentes RM",
+      "telefonos": [
+        "+56 9 6572 1984",
+        "+56 9 6572 1994"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": null,
+      "direccion": null,
+      "baseComuna": "quinta-normal",
+      "cobertura": {
+        "tipo": "region",
+        "region": "region-metropolitana"
+      },
+      "interno": {
+        "fuente": "Directorio Mercantil",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-la-farfana",
+      "nombre": "Grúas La Farfana",
+      "telefonos": [
+        "+56 9 5222 6031"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Américo Vespucio 1184",
+      "baseComuna": "maipu",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar; pocas reseñas, algunas mixtas"
+      }
+    },
+    {
+      "id": "gruas-y-servicios-segovia",
+      "nombre": "Grúas y Servicios Segovia",
+      "telefonos": [
+        "+56 2 2611 0330"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "pesados"
+      ],
+      "horario": "24 horas",
+      "direccion": "San Agustín 11160",
+      "baseComuna": "maipu",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "servicio-de-gruas-en-maipu",
+      "nombre": "Servicio de Grúas en Maipú",
+      "telefonos": [
+        "+56 9 8794 1526"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Los Florines 668",
+      "baseComuna": "maipu",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar; reseñas mixtas"
+      }
+    },
+    {
+      "id": "grua-urgente",
+      "nombre": "Grúa Urgente",
+      "telefonos": [
+        "+56 9 7343 7808"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Rafael Sotomayor 490",
+      "baseComuna": "santiago",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-centro-express",
+      "nombre": "Grúas Centro Express",
+      "telefonos": [
+        "+56 9 8406 2331"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "San Isidro 1597",
+      "baseComuna": "santiago",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-santiago-24-horas",
+      "nombre": "Grúas Santiago 24 horas",
+      "telefonos": [
+        "+56 9 3388 3015"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": null,
+      "baseComuna": "santiago",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-santiago-centro-autos-y-motos",
+      "nombre": "Grúas Santiago Centro Autos y Motos",
+      "telefonos": [
+        "+56 9 5066 7819"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos",
+        "motos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Gral. Bulnes 64",
+      "baseComuna": "santiago",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "conchali",
+          "el-bosque",
+          "quinta-normal",
+          "valparaiso",
+          "concon",
+          "villa-alemana"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Mismo número en 3 fichas (Santiago, Villa Alemana, Valparaíso): probable operador único; confirmar si realmente es local"
+      }
+    },
+    {
+      "id": "gruas-de-santiago",
+      "nombre": "Grúas de Santiago",
+      "telefonos": [
+        "+56 9 8466 3302"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Huérfanos 786",
+      "baseComuna": "santiago",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-atienzo-spa",
+      "nombre": "Grúas Atienzo SpA",
+      "telefonos": [
+        "+56 9 9675 4950"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Los Carrera 0931",
+      "baseComuna": "quilpue",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-bruna",
+      "nombre": "Grúas Bruna",
+      "telefonos": [
+        "+56 9 6868 7807"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Cormorán 2431",
+      "baseComuna": "quilpue",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-merino",
+      "nombre": "Grúas Merino",
+      "telefonos": [
+        "+56 9 8156 8075"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Caupolicán 1263",
+      "baseComuna": "quilpue",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-paz",
+      "nombre": "Grúas Paz",
+      "telefonos": [
+        "+56 9 8342 8430"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": null,
+      "baseComuna": "quilpue",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-quilpue-seanespri",
+      "nombre": "Grúas Quilpué Seanespri",
+      "telefonos": [
+        "+56 9 9883 4405"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Sáb 24 horas; domingo cerrado",
+      "direccion": "Covadonga 1156",
+      "baseComuna": "quilpue",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "grua-en-vina-del-mar-quinta-vergara",
+      "nombre": "Grúa en Viña del Mar Quinta Vergara",
+      "telefonos": [
+        "+56 9 6122 2302"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Sáb 9:00–21:00; domingo 24 horas",
+      "direccion": "Quinta Vergara 816",
+      "baseComuna": "vina-del-mar",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar; ficha con 1 reseña"
+      }
+    },
+    {
+      "id": "gruas-nm-vina-del-mar",
+      "nombre": "Grúas NM Viña del Mar",
+      "telefonos": [
+        "+56 9 5037 4654"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Villa Independencia",
+      "baseComuna": "vina-del-mar",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: ficha con 1 reseña; reemplazar si aparece una mejor opción"
+      }
+    },
+    {
+      "id": "gruas-rutas-seguras",
+      "nombre": "Grúas Rutas Seguras",
+      "telefonos": [
+        "+56 9 6456 8354"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Viana 433",
+      "baseComuna": "vina-del-mar",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-vina-24-7",
+      "nombre": "Grúas Viña 24/7",
+      "telefonos": [
+        "+56 9 2955 4460"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Eduardo Yáñez 102",
+      "baseComuna": "vina-del-mar",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-en-vina-del-mar-24-horas",
+      "nombre": "Grúas en Viña del Mar 24 horas",
+      "telefonos": [
+        "+56 9 5621 1454"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Raúl Toro",
+      "baseComuna": "vina-del-mar",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-gutierrez",
+      "nombre": "Grúas Gutiérrez",
+      "telefonos": [
+        "+56 9 8380 7490"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "Dr. Santibáñez 754",
+      "baseComuna": "cerrillos",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-rescue",
+      "nombre": "Grúas Rescue",
+      "telefonos": [
+        "+56 9 9556 8248"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Félix Margoz 723",
+      "baseComuna": "cerrillos",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-valleley",
+      "nombre": "Grúas Valleley",
+      "telefonos": [
+        "+56 9 9337 7675"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Ernesto Cea 1118",
+      "baseComuna": "cerrillos",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: ficha con 1 reseña sin texto"
+      }
+    },
+    {
+      "id": "cortes-gruas",
+      "nombre": "Cortes Grúas",
+      "telefonos": [
+        "+56 9 5949 9053"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Clotario Blest 5180",
+      "baseComuna": "pedro-aguirre-cerda",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Cortes (550 reseñas, 4,9)"
+      }
+    },
+    {
+      "id": "gruas-economicas-corinto",
+      "nombre": "Grúas Económicas Corinto",
+      "telefonos": [
+        "+56 9 7796 8785"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos",
+        "pesados"
+      ],
+      "horario": "Lun–Sáb 10:00–22:00",
+      "direccion": "Corinto 4640",
+      "baseComuna": "pedro-aguirre-cerda",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Gruas Economicas para autos y camiones 24 horas"
+      }
+    },
+    {
+      "id": "gruas-911-cerro-navia",
+      "nombre": "Grúas 911 Cerro Navia",
+      "telefonos": [
+        "+56 9 4008 9342"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. José Joaquín Pérez 9541",
+      "baseComuna": "cerro-navia",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "renca",
+          "lo-prado",
+          "pudahuel",
+          "quinta-normal"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "oscar-grua",
+      "nombre": "Oscar Grúa",
+      "telefonos": [
+        "+56 9 9578 3258"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Av. Costanera Sur 6855",
+      "baseComuna": "cerro-navia",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 3 reseñas"
+      }
+    },
+    {
+      "id": "gruas-mundial",
+      "nombre": "Grúas Mundial",
+      "telefonos": [
+        "+56 9 4261 2320"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Linares 4579",
+      "baseComuna": "conchali",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Servicio de Grúa (Grúas Mundial)"
+      }
+    },
+    {
+      "id": "gruas-campos-service",
+      "nombre": "Grúas Campos Service",
+      "telefonos": [
+        "+56 9 5829 0208"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Andrés Marambio 3936",
+      "baseComuna": "conchali",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Pocas reseñas; una reclama precio alto"
+      }
+    },
+    {
+      "id": "grua-independencia",
+      "nombre": "Grúa Independencia",
+      "telefonos": [
+        "+56 9 8261 1530"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Cartagena 4974",
+      "baseComuna": "conchali",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Pocas reseñas; una indica que no contestaron"
+      }
+    },
+    {
+      "id": "gruas-bernal",
+      "nombre": "Grúas Bernal",
+      "telefonos": [
+        "+56 9 3149 5224"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Pascual Lazarte 2388",
+      "baseComuna": "independencia",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "140 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-jets",
+      "nombre": "Grúas Jets",
+      "telefonos": [
+        "+56 9 3420 9990"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Fidel Monje 940",
+      "baseComuna": "independencia",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Dice atender Santiago y regiones"
+      }
+    },
+    {
+      "id": "gruas-santiago-cheo-pala",
+      "nombre": "Grúas Santiago Cheo Pala",
+      "telefonos": [
+        "+56 9 2065 9348"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Parque Riesco 3473",
+      "baseComuna": "recoleta",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "macul"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 3 reseñas"
+      }
+    },
+    {
+      "id": "gruas-24-horas-mk28-garage",
+      "nombre": "Grúas 24 horas MK28 Garage",
+      "telefonos": [
+        "+56 9 3097 1599"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Nueva Oriente 9545",
+      "baseComuna": "el-bosque",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-ch-24-horas",
+      "nombre": "Grúas CH 24 Horas",
+      "telefonos": [
+        "+56 9 5734 0741"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Nueva Oriente 9596",
+      "baseComuna": "san-ramon",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "la-cisterna"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Mismo número figura en otra ficha de La Cisterna (Grúas Totich)"
+      }
+    },
+    {
+      "id": "gruas-brecar",
+      "nombre": "Grúas Brecar",
+      "telefonos": [
+        "+56 9 8750 6968"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos",
+        "motos"
+      ],
+      "horario": "Horario variable (ver ficha)",
+      "direccion": "Alhué 8820",
+      "baseComuna": "la-cisterna",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Autos, camionetas y motos según el nombre de la ficha"
+      }
+    },
+    {
+      "id": "gruas-ams",
+      "nombre": "Grúas AMS",
+      "telefonos": [
+        "+56 9 3684 7698"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Sergio Ceppi 308",
+      "baseComuna": "la-cisterna",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "santiago",
+          "las-condes",
+          "macul"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Mismo número en otra ficha de Santiago"
+      }
+    },
+    {
+      "id": "servicio-de-gruas-cristian-arce",
+      "nombre": "Servicio de Grúas Cristian Arce",
+      "telefonos": [
+        "+56 9 4424 4974"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "La Granja 8049",
+      "baseComuna": "la-cisterna",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Reseñas mixtas"
+      }
+    },
+    {
+      "id": "gruas-ren",
+      "nombre": "Grúas Ren",
+      "telefonos": [
+        "+56 9 8262 3526"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos",
+        "pesados"
+      ],
+      "horario": "7:00–24:00",
+      "direccion": "Av. Américo Vespucio 435",
+      "baseComuna": "la-cisterna",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Camiones, buses y autos según el nombre de la ficha"
+      }
+    },
+    {
+      "id": "pide-tu-grua",
+      "nombre": "Pide Tu Grúa",
+      "telefonos": [
+        "+56 9 7466 2010"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Vie 24 horas",
+      "direccion": "Los Jacintos 161",
+      "baseComuna": "san-bernardo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Traslado de vehículos y maquinarias; 86 reseñas, 4,9"
+      }
+    },
+    {
+      "id": "llamalagrua",
+      "nombre": "Llamalagrua",
+      "telefonos": [
+        "+56 9 8627 7670"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Padre Exequiel Fernández 9361",
+      "baseComuna": "la-granja",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Pocas reseñas, una negativa por trato"
+      }
+    },
+    {
+      "id": "grua-santiago-estacion-central",
+      "nombre": "Grúa Santiago Estación Central",
+      "telefonos": [
+        "+56 9 5768 1641"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Cnel. Souper 4555",
+      "baseComuna": "estacion-central",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 2 reseñas"
+      }
+    },
+    {
+      "id": "gruas-lara",
+      "nombre": "Grúas Lara",
+      "telefonos": [
+        "+56 9 8191 7260"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Las Azucenas 503",
+      "baseComuna": "huechuraba",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 2 reseñas"
+      }
+    },
+    {
+      "id": "grua-24-horas-rivas-vicuna",
+      "nombre": "Grúa 24 horas Rivas Vicuña",
+      "telefonos": [
+        "+56 9 7813 4699"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Rivas Vicuña 1581",
+      "baseComuna": "quinta-normal",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-la-florida-y-puente-alto",
+      "nombre": "Grúas La Florida y Puente Alto",
+      "telefonos": [
+        "+56 9 8652 3355"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Volcán Antillanca 4535",
+      "baseComuna": "la-florida",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "san-jose-de-maipo"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "29 reseñas, 4,9; autos y camionetas según el nombre de la ficha"
+      }
+    },
+    {
+      "id": "fito-gruas",
+      "nombre": "Fito Grúas",
+      "telefonos": [
+        "+56 9 3102 0609"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Fernando Rioja 482",
+      "baseComuna": "la-florida",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 3 reseñas"
+      }
+    },
+    {
+      "id": "gruas-nya",
+      "nombre": "Grúas NyA",
+      "telefonos": [
+        "+56 9 9809 4227"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Dr. Sotero del Río 1178",
+      "baseComuna": "la-florida",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Grúas Económicas | Gruas NyA; 4 reseñas"
+      }
+    },
+    {
+      "id": "gruas-la-florida",
+      "nombre": "Grúas La Florida",
+      "telefonos": [
+        "+56 9 7640 4338"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Todos los días 9:00–18:30",
+      "direccion": "Valentina Leppe 10429",
+      "baseComuna": "la-florida",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 2 reseñas"
+      }
+    },
+    {
+      "id": "gruas-saravia",
+      "nombre": "Grúas Saravia",
+      "telefonos": [
+        "+56 9 5381 7335"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Lo Blanco 1074",
+      "baseComuna": "la-pintana",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña"
+      }
+    },
+    {
+      "id": "gruas-villmos",
+      "nombre": "Grúas Villmos",
+      "telefonos": [
+        "+56 9 3380 1318"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Calle D 1153",
+      "baseComuna": "la-pintana",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-24-7-alvarado-drag",
+      "nombre": "Grúas 24/7 Alvarado Drag",
+      "telefonos": [
+        "+56 9 2075 8983"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Inés de Suárez 13658",
+      "baseComuna": "la-pintana",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: ficha sin reseñas"
+      }
+    },
+    {
+      "id": "grua-santiago-luis",
+      "nombre": "Grúa Santiago Luis",
+      "telefonos": [
+        "+56 9 5017 6718"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "La Reina (sin calle en la ficha)",
+      "baseComuna": "la-reina",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 2 reseñas"
+      }
+    },
+    {
+      "id": "orange-grua-24-horas",
+      "nombre": "Orange Grúa 24 horas",
+      "telefonos": [
+        "+56 9 6695 1856"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Cristóbal Colón 9135",
+      "baseComuna": "las-condes",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "grua-express",
+      "nombre": "Grúa Express",
+      "telefonos": [
+        "+56 9 9514 0919"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Vie 8:00–1:00; Sáb–Dom 8:30–24:00",
+      "direccion": "Av. Las Condes 10465",
+      "baseComuna": "las-condes",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "98 reseñas, 4,9; una reseña la critica por precio"
+      }
+    },
+    {
+      "id": "gruas-admin-para-tu-auto",
+      "nombre": "Grúas Admin para tu Auto",
+      "telefonos": [
+        "+56 9 3580 6059"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Av. Presidente Kennedy 9001",
+      "baseComuna": "las-condes",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-santiago-24hr",
+      "nombre": "Grúas Santiago 24hr",
+      "telefonos": [
+        "+56 9 9304 7631"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Apoquindo 7935",
+      "baseComuna": "las-condes",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "providencia"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "as-gruas",
+      "nombre": "AS Grúas",
+      "telefonos": [
+        "+56 9 7210 6792"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "El Aguilucho 3505",
+      "baseComuna": "providencia",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-royal",
+      "nombre": "Grúas Royal",
+      "telefonos": [
+        "+56 9 9173 7299"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Manuel de Salas 71",
+      "baseComuna": "nunoa",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-urzua",
+      "nombre": "Grúas Urzúa",
+      "telefonos": [
+        "+56 9 9837 3737"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Gabriela Oriente 01099",
+      "baseComuna": "puente-alto",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "457 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-urgente-lo-espejo",
+      "nombre": "Grúas Urgente Lo Espejo",
+      "telefonos": [
+        "+56 9 3901 9317"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Presidente Adolfo López Mateos 1711",
+      "baseComuna": "lo-espejo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "grua-para-autos-24-horas-fernandez",
+      "nombre": "Grúa para Autos 24 horas Fernández",
+      "telefonos": [
+        "+56 9 6834 6004"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "Lun–Sáb 24 horas",
+      "direccion": "San Pablo 8548",
+      "baseComuna": "pudahuel",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "renca"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-cruzero",
+      "nombre": "Grúas Cruzero",
+      "telefonos": [
+        "+56 9 5148 7489"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "El Abeto 8527",
+      "baseComuna": "pudahuel",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Reseñas mixtas (una reclamo por trato)"
+      }
+    },
+    {
+      "id": "gruas-jar",
+      "nombre": "Grúas Jar",
+      "telefonos": [
+        "+56 9 2037 8254"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Pedro de Valdivia 7642",
+      "baseComuna": "macul",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-a-marcos",
+      "nombre": "Grúas A. Marcos",
+      "telefonos": [
+        "+56 9 7696 0405"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "Los Espinos 2452",
+      "baseComuna": "macul",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 4 reseñas"
+      }
+    },
+    {
+      "id": "asistencia-automotriz-gerval",
+      "nombre": "Asistencia Automotriz Gerval",
+      "telefonos": [
+        "+56 9 8190 2215"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Las Codornices 2929",
+      "baseComuna": "macul",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Una reseña indica que el número estaba equivocado; confirmar"
+      }
+    },
+    {
+      "id": "gruas-st-24-7",
+      "nombre": "Grúas ST 24/7",
+      "telefonos": [
+        "+56 9 3442 0802"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. José Arrieta 9591",
+      "baseComuna": "penalolen",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "grua-y-fletes-gabriel-hernandez",
+      "nombre": "Grúa y Fletes Gabriel Hernández",
+      "telefonos": [
+        "+56 9 9444 5832"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "La Senda de Don Juan Francisco 5325",
+      "baseComuna": "penalolen",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña; ofrece también fletes"
+      }
+    },
+    {
+      "id": "gruas-moises",
+      "nombre": "Grúas Moisés",
+      "telefonos": [
+        "+56 9 3955 4657"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Afluente 5947",
+      "baseComuna": "penalolen",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-ayala",
+      "nombre": "Grúas Ayala",
+      "telefonos": [
+        "+56 9 9415 2486"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Córdova 277",
+      "baseComuna": "quilicura",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Grúas en Quilicura | Grúa para Autos Express"
+      }
+    },
+    {
+      "id": "grua-24-horas-el-cobre",
+      "nombre": "Grúa 24 horas El Cobre",
+      "telefonos": [
+        "+56 9 4648 7221"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "El Cobre 0561",
+      "baseComuna": "quilicura",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-camus",
+      "nombre": "Grúas Camus",
+      "telefonos": [
+        "+56 9 5421 2988"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Quilicura (sin calle en la ficha)",
+      "baseComuna": "quilicura",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-ya",
+      "nombre": "Grúas Ya",
+      "telefonos": [
+        "+56 9 3287 2005"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Lo Cruzat 0525",
+      "baseComuna": "quilicura",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-m-l",
+      "nombre": "Grúas M & L",
+      "telefonos": [
+        "+56 2 2641 1261"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "Aníbal Zañartu 2622",
+      "baseComuna": "renca",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono fijo"
+      }
+    },
+    {
+      "id": "gruas-rc",
+      "nombre": "Grúas RC",
+      "telefonos": [
+        "+56 9 8837 8435"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "Av. Domingo Santa María 3784",
+      "baseComuna": "renca",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 2 reseñas"
+      }
+    },
+    {
+      "id": "maxy-gruas",
+      "nombre": "Maxy Grúas",
+      "telefonos": [
+        "+56 9 3364 0866"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Río Blanco 4851",
+      "baseComuna": "renca",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña"
+      }
+    },
+    {
+      "id": "gruas-jc",
+      "nombre": "Grúas JC",
+      "telefonos": [
+        "+56 9 7566 9192"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Debussy 3242",
+      "baseComuna": "san-joaquin",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-transporte-gt",
+      "nombre": "Grúas Transporte GT",
+      "telefonos": [
+        "+56 9 7719 3746"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Vicuña Mackenna 1990",
+      "baseComuna": "nunoa",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Una reseña reclama que exigen pago por adelantado"
+      }
+    },
+    {
+      "id": "gruas-san-miguel",
+      "nombre": "Grúas San Miguel",
+      "telefonos": [
+        "+56 9 5682 3871"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Varas Mena 1015",
+      "baseComuna": "san-miguel",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña"
+      }
+    },
+    {
+      "id": "consultatugrua-cl",
+      "nombre": "Consultatugrua.cl",
+      "telefonos": [
+        "+56 9 6478 7911"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Oscar Hormazábal 1598",
+      "baseComuna": "san-miguel",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "70 reseñas, 4,9"
+      }
+    },
+    {
+      "id": "gruas-service",
+      "nombre": "Grúas Service",
+      "telefonos": [
+        "+56 9 7243 5795"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Fermín Vergara 110",
+      "baseComuna": "colina",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-l-m-rescate-y-traslado",
+      "nombre": "Grúas L M Rescate y Traslado",
+      "telefonos": [
+        "+56 9 7930 2890"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Todos los días 7:00–23:30",
+      "direccion": "Concepción 640",
+      "baseComuna": "colina",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "78 reseñas, 4,9"
+      }
+    },
+    {
+      "id": "gruas-facundo-colina",
+      "nombre": "Grúas Facundo Colina",
+      "telefonos": [
+        "+56 9 4071 6421"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "General San Martín",
+      "baseComuna": "colina",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña"
+      }
+    },
+    {
+      "id": "gruas-colina-v-y-v",
+      "nombre": "Grúas Colina V y V",
+      "telefonos": [
+        "+56 9 4243 7549"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Pino Japonés 901, Chacabuco",
+      "baseComuna": "colina",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 3 reseñas"
+      }
+    },
+    {
+      "id": "grua-ricardo-castillo",
+      "nombre": "Grúa Ricardo Castillo",
+      "telefonos": [
+        "+56 9 6414 4851"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Sáb 24 horas; domingo 11:00–17:00",
+      "direccion": "Santa Marta de Liray, parcela 6B",
+      "baseComuna": "colina",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-lampa-batuco-24-7",
+      "nombre": "Grúas Lampa Batuco 24/7",
+      "telefonos": [
+        "+56 9 3312 9201"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Cacique Colín 1522",
+      "baseComuna": "lampa",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Mismo número que Grúas y Rescates Lampa"
+      }
+    },
+    {
+      "id": "gruas-full",
+      "nombre": "Grúas Full",
+      "telefonos": [
+        "+56 9 3307 5383"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Lampa (sin calle en la ficha)",
+      "baseComuna": "lampa",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Una reseña indica que transportan todo tipo de vehículos"
+      }
+    },
+    {
+      "id": "gruas-victor-vega",
+      "nombre": "Grúas Víctor Vega",
+      "telefonos": [
+        "+56 9 8907 4101"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Errázuriz 264",
+      "baseComuna": "lampa",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-jonathan-araneda",
+      "nombre": "Grúas Jonathan Araneda",
+      "telefonos": [
+        "+56 9 5603 5889"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Isabel Riquelme 19100",
+      "baseComuna": "lampa",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-economicas-24-horas",
+      "nombre": "Grúas Económicas 24 Horas",
+      "telefonos": [
+        "+56 9 7337 0698"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Walker Martínez 2991",
+      "baseComuna": "la-florida",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-matias-nicolas",
+      "nombre": "Grúas Matías Nicolás",
+      "telefonos": [
+        "+56 9 7282 0302"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Tiltil (sin calle en la ficha)",
+      "baseComuna": "tiltil",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-til-til-alex-contreras",
+      "nombre": "Grúas Til Til Alex Contreras",
+      "telefonos": [
+        "+56 9 5477 0485"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Huertos Familiares",
+      "baseComuna": "tiltil",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-j-moya",
+      "nombre": "Grúas J. Moya",
+      "telefonos": [
+        "+56 9 3325 8252"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Darío Ovalle, Polpaico",
+      "baseComuna": "tiltil",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "ng-gruas",
+      "nombre": "NG Grúas",
+      "telefonos": [
+        "+56 9 7159 2125"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos",
+        "motos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Pirque (sin calle en la ficha)",
+      "baseComuna": "pirque",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "san-jose-de-maipo",
+          "san-bernardo"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: NGgruas | grúas para autos; también anuncia en San José de Maipo (autos y motos)"
+      }
+    },
+    {
+      "id": "gruas-palma",
+      "nombre": "Grúas Palma",
+      "telefonos": [
+        "+56 9 3511 2296"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Virginia Subercaseaux 1390",
+      "baseComuna": "pirque",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "28 reseñas, 5,0; una reseña menciona traslado de maquinaria pesada"
+      }
+    },
+    {
+      "id": "gruas-disponibles-24-7",
+      "nombre": "Grúas Disponibles 24/7",
+      "telefonos": [
+        "+56 9 4023 0152"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Camino El Polo 2",
+      "baseComuna": "pirque",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Reseñas mixtas (una reclama daños a una moto)"
+      }
+    },
+    {
+      "id": "gruas-cajon-del-maipo-el-canelo",
+      "nombre": "Grúas Cajón del Maipo El Canelo",
+      "telefonos": [
+        "+56 9 8798 0673"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "Camino al Volcán 5782, El Canelo",
+      "baseComuna": "san-jose-de-maipo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "64 reseñas, 4,8; menciona rescate 4x4"
+      }
+    },
+    {
+      "id": "gruas-cajon-del-maipo",
+      "nombre": "Grúas Cajón del Maipo",
+      "telefonos": [
+        "+56 9 6463 0312"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "San José de Maipo (sin calle en la ficha)",
+      "baseComuna": "san-jose-de-maipo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-buin-rodriguez",
+      "nombre": "Grúas Buin Rodríguez",
+      "telefonos": [
+        "+56 9 3261 5585"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Ruta 5",
+      "baseComuna": "buin",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "30 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-buin-paine-mts",
+      "nombre": "Grúas Buin Paine (MTS)",
+      "telefonos": [
+        "+56 9 5690 6652"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Todos los días 6:00–1:00",
+      "direccion": "Buin (sin calle en la ficha)",
+      "baseComuna": "buin",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-buin",
+      "nombre": "Grúas Buin",
+      "telefonos": [
+        "+56 9 7402 4982"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "Francisco Javier Krugger 18, Linderos",
+      "baseComuna": "buin",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 3 reseñas"
+      }
+    },
+    {
+      "id": "gruas-j-b",
+      "nombre": "Grúas J&B",
+      "telefonos": [
+        "+56 9 4162 7511"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Luis Eugenio Riquelme Pino 355",
+      "baseComuna": "buin",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-sante-paine-buin",
+      "nombre": "Grúas Sante Paine-Buin",
+      "telefonos": [
+        "+56 9 5413 3915"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Av. 18 de Septiembre 2675",
+      "baseComuna": "paine",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Una reseña destaca equipo hidráulico para autos bajos"
+      }
+    },
+    {
+      "id": "gruas-gargiullo-paine-buin",
+      "nombre": "Grúas Gargiullo Paine Buin",
+      "telefonos": [
+        "+56 9 8416 9187"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Ruta 5 km 43",
+      "baseComuna": "paine",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-minj",
+      "nombre": "Grúas MINJ",
+      "telefonos": [
+        "+56 9 3216 7689"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Aracena y Mönckeberg 900, Champa",
+      "baseComuna": "paine",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-aculeo",
+      "nombre": "Grúas Aculeo",
+      "telefonos": [
+        "+56 9 8121 0199"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Vie 5:00–23:00; sáb hasta 20:00; dom cerrado",
+      "direccion": "Camino Laguna de Aculeo km 9",
+      "baseComuna": "paine",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 5 reseñas"
+      }
+    },
+    {
+      "id": "gruas-navasep",
+      "nombre": "Grúas Navasep",
+      "telefonos": [
+        "+56 9 7415 3313"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Lucero del Alba s/n",
+      "baseComuna": "calera-de-tango",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-economica-melipilla",
+      "nombre": "Grúas Económica Melipilla",
+      "telefonos": [
+        "+56 9 5168 2081"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Vicuña Mackenna 050",
+      "baseComuna": "melipilla",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "54 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-rescate-melipilla",
+      "nombre": "Grúas Rescate Melipilla",
+      "telefonos": [
+        "+56 9 9635 5606"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Camino Las Parcelas 24, El Dibujo",
+      "baseComuna": "melipilla",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "184 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-melipilla-cv-king",
+      "nombre": "Grúas Melipilla CV King",
+      "telefonos": [
+        "+56 9 8450 0354"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Francia 2021",
+      "baseComuna": "melipilla",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "137 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-jose-loyola",
+      "nombre": "Grúas José Loyola",
+      "telefonos": [
+        "+56 9 4742 5943"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Manuel Benítez 515",
+      "baseComuna": "melipilla",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "139 reseñas, 4,9"
+      }
+    },
+    {
+      "id": "gruas-mp",
+      "nombre": "Grúas MP",
+      "telefonos": [
+        "+56 9 8383 3488"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Prof. Luis Inostroza Gatica 157",
+      "baseComuna": "melipilla",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Gruas MP 995673129"
+      }
+    },
+    {
+      "id": "gruas-curacavi-ruta-68",
+      "nombre": "Grúas Curacaví Ruta 68",
+      "telefonos": [
+        "+56 9 6711 0476"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Ambrosio O'Higgins",
+      "baseComuna": "curacavi",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Grúas Curacaví; las reseñas la mencionan como Grúas Ruta 68"
+      }
+    },
+    {
+      "id": "gruas-3-r-curacavi-ruta-68",
+      "nombre": "Grúas 3-R Curacaví Ruta 68",
+      "telefonos": [
+        "+56 9 7172 3598"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Gastón Iturrisagastegui 1447",
+      "baseComuna": "curacavi",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "casablanca"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-curacavi-las-rosas",
+      "nombre": "Grúas Curacaví Las Rosas",
+      "telefonos": [
+        "+56 9 6467 8961"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Las Rosas 705",
+      "baseComuna": "curacavi",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 2 reseñas sin texto"
+      }
+    },
+    {
+      "id": "grua-economica-curacavi",
+      "nombre": "Grúa Económica Curacaví",
+      "telefonos": [
+        "+56 9 8695 7047"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Curacaví (sin calle en la ficha)",
+      "baseComuna": "curacavi",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña"
+      }
+    },
+    {
+      "id": "gruas-san-pedro-de-melipilla",
+      "nombre": "Grúas San Pedro de Melipilla",
+      "telefonos": [
+        "+56 9 7682 0486"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "San Pedro (sin calle en la ficha)",
+      "baseComuna": "san-pedro",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 valoración, sin reseñas"
+      }
+    },
+    {
+      "id": "gruas-castro-talagante-24-7",
+      "nombre": "Grúas Castro Talagante 24/7",
+      "telefonos": [
+        "+56 9 6126 4603"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Bombero Hernán Avilés González 100",
+      "baseComuna": "talagante",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "edu-gruas-talagante",
+      "nombre": "Edu Grúas Talagante",
+      "telefonos": [
+        "+56 9 7212 4248"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Ramón Ramírez 1211",
+      "baseComuna": "talagante",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "78 reseñas, 4,9"
+      }
+    },
+    {
+      "id": "gruas-carampangue",
+      "nombre": "Grúas Carampangue",
+      "telefonos": [
+        "+56 9 3029 0881"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Camino Carampangue 980",
+      "baseComuna": "talagante",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "73 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "servicio-de-gruas-fletes-y-mudanzas",
+      "nombre": "Servicio de Grúas, Fletes y Mudanzas",
+      "telefonos": [
+        "+56 9 4260 6436"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Presidente Patricio Aylwin 1142",
+      "baseComuna": "talagante",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "También ofrece fletes y mudanzas"
+      }
+    },
+    {
+      "id": "gruas-allende",
+      "nombre": "Grúas Allende",
+      "telefonos": [
+        "+56 9 9981 4264"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Bernardo O'Higgins 1300",
+      "baseComuna": "talagante",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-brunetti",
+      "nombre": "Grúas Brunetti",
+      "telefonos": [
+        "+56 9 4991 2248"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Sáb 24 horas",
+      "direccion": "Av. San Antonio de Naltagua 2260",
+      "baseComuna": "isla-de-maipo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-faga",
+      "nombre": "Grúas Faga",
+      "telefonos": [
+        "+56 9 8917 0622"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Isla de Maipo (sin calle en la ficha)",
+      "baseComuna": "isla-de-maipo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 3 reseñas"
+      }
+    },
+    {
+      "id": "gruas-cordillera",
+      "nombre": "Grúas Cordillera",
+      "telefonos": [
+        "+56 9 9865 3758"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Vie 8:00–19:00; sáb 9:00–14:00",
+      "direccion": "Balmaceda 4981, La Islita",
+      "baseComuna": "isla-de-maipo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña"
+      }
+    },
+    {
+      "id": "gruas-matipar",
+      "nombre": "Grúas Matipar",
+      "telefonos": [
+        "+56 9 6747 7651 / +56 9 8268 5689"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Estero Chacabuco 1661",
+      "baseComuna": "padre-hurtado",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Dos fichas (Grúas Matipar y Gruas Matipar SpA) con números distintos en la misma dirección; una reseña reclama daños al cargar un camión"
+      }
+    },
+    {
+      "id": "gruas-serrano",
+      "nombre": "Grúas Serrano",
+      "telefonos": [
+        "+56 9 8301 3464"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Luis Pasteur 924",
+      "baseComuna": "padre-hurtado",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Una reseña indica que no llegaron y apagaron el teléfono"
+      }
+    },
+    {
+      "id": "grua-silva-chile",
+      "nombre": "Grúa Silva Chile",
+      "telefonos": [
+        "+56 2 2834 2076"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Vie 9:00–19:00; sáb 9:00–14:00",
+      "direccion": "Av. San Ignacio 1253",
+      "baseComuna": "padre-hurtado",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono fijo; ficha sin reseñas"
+      }
+    },
+    {
+      "id": "gruas-felipe-86",
+      "nombre": "Grúas Felipe 86",
+      "telefonos": [
+        "+56 9 6728 4223"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Pasaje Marta Brunet 016",
+      "baseComuna": "penaflor",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: gruasfelipe86; una reseña dice precios sobre el mercado"
+      }
+    },
+    {
+      "id": "gruas-cereceda",
+      "nombre": "Grúas Cereceda",
+      "telefonos": [
+        "+56 9 7753 8893"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Alameda 288",
+      "baseComuna": "penaflor",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "sos-gruas",
+      "nombre": "SOS Grúas",
+      "telefonos": [
+        "+56 9 9435 3993"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Larraín 3227",
+      "baseComuna": "penaflor",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 5 reseñas"
+      }
+    },
+    {
+      "id": "gruas-24-horas-pro-express-amestica",
+      "nombre": "Grúas 24 horas Pro Express Améstica",
+      "telefonos": [
+        "+56 9 9754 3622"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "María del Pilar 3724",
+      "baseComuna": "recoleta",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "48 reseñas, 4,9"
+      }
+    },
+    {
+      "id": "gruas-cj",
+      "nombre": "Grúas CJ",
+      "telefonos": [
+        "+56 9 4098 8037"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Presidente Kennedy Lateral 5118",
+      "baseComuna": "vitacura",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 4 reseñas"
+      }
+    },
+    {
+      "id": "servigruas-dios-es-fiel",
+      "nombre": "Servigrúas Dios es Fiel",
+      "telefonos": [
+        "+56 9 5944 1232"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun 9:00–19:00; Mar–Sáb 9:00–17:00",
+      "direccion": "Zósimo Errázuriz 98",
+      "baseComuna": "el-monte",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 valoración de 1,0 sin reseña; confirmar antes de destacar"
+      }
+    },
+    {
+      "id": "gruas-en-santiago-nunoa",
+      "nombre": "Grúas en Santiago Ñuñoa",
+      "telefonos": [
+        "+56 9 8697 3385"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Brígida Walker 2040",
+      "baseComuna": "nunoa",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Gruas en Santiago"
+      }
+    },
+    {
+      "id": "gruas-24-7-lago-general-carrera",
+      "nombre": "Grúas 24/7 Lago General Carrera",
+      "telefonos": [
+        "+56 9 7295 0745"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Lago General Carrera 4780",
+      "baseComuna": "puente-alto",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña sin texto; la ficha cae en el límite La Florida / Puente Alto"
+      }
+    },
+    {
+      "id": "gruas-costa-valparaiso",
+      "nombre": "Grúas Costa Valparaíso",
+      "telefonos": [
+        "+56 9 9257 3067"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Todos los días 7:00–23:30",
+      "direccion": "Pocuro 1046",
+      "baseComuna": "valparaiso",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "19 reseñas, 3,7"
+      }
+    },
+    {
+      "id": "gruas-valparaiso-cym",
+      "nombre": "Grúas Valparaíso CYM",
+      "telefonos": [
+        "+56 9 8903 5170"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Vie 8:00–23:30; sáb y dom 24 horas",
+      "direccion": "Curauma – Placilla",
+      "baseComuna": "valparaiso",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 5 reseñas"
+      }
+    },
+    {
+      "id": "gruas-mac-lean-valparaiso",
+      "nombre": "Grúas Mac-Lean Valparaíso",
+      "telefonos": [
+        "+56 9 7575 7654"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "San Patricio 276",
+      "baseComuna": "valparaiso",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 4 reseñas"
+      }
+    },
+    {
+      "id": "gruas-valparaiso-gyl",
+      "nombre": "Grúas Valparaíso GYL",
+      "telefonos": [
+        "+56 9 2066 3729"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Retamo 581",
+      "baseComuna": "valparaiso",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña"
+      }
+    },
+    {
+      "id": "gruas-casablanca",
+      "nombre": "Grúas Casablanca",
+      "telefonos": [
+        "+56 9 8548 7045"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Sáb 7:00–21:00; dom 7:00–12:00",
+      "direccion": "Ruta 68 km 70",
+      "baseComuna": "casablanca",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "94 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-tov",
+      "nombre": "Grúas TOV",
+      "telefonos": [
+        "+56 9 9998 0003"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Pedro Mayorga 352",
+      "baseComuna": "casablanca",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 4 reseñas"
+      }
+    },
+    {
+      "id": "gruas-pacheco-chile",
+      "nombre": "Grúas Pacheco Chile",
+      "telefonos": [
+        "+56 9 8451 2995"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Ruta 68 km 65",
+      "baseComuna": "casablanca",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: ficha sin reseñas"
+      }
+    },
+    {
+      "id": "gruas-delfin",
+      "nombre": "Grúas Delfín",
+      "telefonos": [
+        "+56 9 6813 6987"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "RPC Concón, calle 4 N° 315",
+      "baseComuna": "concon",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "25 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-gabriela",
+      "nombre": "Grúas Gabriela",
+      "telefonos": [
+        "+56 9 3247 8574"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Circunvalación 665",
+      "baseComuna": "concon",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-caceres",
+      "nombre": "Grúas Cáceres",
+      "telefonos": [
+        "+56 9 9953 2519"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Vie 5:00–22:00; sáb 7:00–14:00; dom cerrado",
+      "direccion": "Río Aconcagua 477",
+      "baseComuna": "concon",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-saldias",
+      "nombre": "Grúas Saldías",
+      "telefonos": [
+        "+56 9 7995 5423"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "Puchuncaví (sin calle en la ficha)",
+      "baseComuna": "puchuncavi",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 3 reseñas"
+      }
+    },
+    {
+      "id": "gruassos",
+      "nombre": "Grúassos",
+      "telefonos": [
+        "+56 9 8739 2184"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Pedro Aldunate 888",
+      "baseComuna": "puchuncavi",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: ficha sin reseñas; nombre en Google: Grûassos"
+      }
+    },
+    {
+      "id": "gruas-24-st",
+      "nombre": "Grúas 24 ST",
+      "telefonos": [
+        "+56 9 6369 8500"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Normandie",
+      "baseComuna": "quintero",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-rc-quintero",
+      "nombre": "Grúas RC Quintero",
+      "telefonos": [
+        "+56 9 9261 9460"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Ignacio Carrera Pinto con Arturo Prat",
+      "baseComuna": "quintero",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Grúas RC"
+      }
+    },
+    {
+      "id": "gruas-y-transportes-jym",
+      "nombre": "Grúas y Transportes JYM",
+      "telefonos": [
+        "+56 9 4044 1446"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Todos los días 7:00–20:00",
+      "direccion": "Av. Gabriel Campos",
+      "baseComuna": "quintero",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-godos",
+      "nombre": "Grúas Godos",
+      "telefonos": [
+        "+56 9 6669 6645"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Baquedano 701",
+      "baseComuna": "quintero",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: ficha sin reseñas"
+      }
+    },
+    {
+      "id": "gruas-transloja",
+      "nombre": "Grúas Transloja",
+      "telefonos": [
+        "+56 9 4569 4388"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun–Vie 6:30–23:30; dom 9:00–21:00; sáb cerrado",
+      "direccion": "Bilbao 131",
+      "baseComuna": "villa-alemana",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "254 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-corcoran-auto-services",
+      "nombre": "Grúas Corcoran Auto Services",
+      "telefonos": [
+        "+56 9 7142 1947"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Quinta 031",
+      "baseComuna": "villa-alemana",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "56 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-castillo",
+      "nombre": "Grúas Castillo",
+      "telefonos": [
+        "+56 9 8287 1710"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Pasaje El Belloto 1323",
+      "baseComuna": "villa-alemana",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-egam",
+      "nombre": "Grúas EGAM",
+      "telefonos": [
+        "+56 9 4771 3088"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Rafael Ruz 328, sector Palermo",
+      "baseComuna": "villa-alemana",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "grua-gogo-limache",
+      "nombre": "Grúa Gogo Limache",
+      "telefonos": [
+        "+56 9 9642 0529"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Carelmapu 512",
+      "baseComuna": "limache",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "67 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "mk-gruas-limache",
+      "nombre": "MK Grúas Limache",
+      "telefonos": [
+        "+56 9 7891 3644"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Cumbres del Sur",
+      "baseComuna": "limache",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "servicio-de-grua-y-transporte-limache-olmue",
+      "nombre": "Servicio de Grúa y Transporte Limache-Olmué",
+      "telefonos": [
+        "+56 9 7809 1766"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Limache (sin calle en la ficha)",
+      "baseComuna": "limache",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "olmue"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: una reseña indica que derivó al cliente a otra grúa"
+      }
+    },
+    {
+      "id": "gruas-olmue-qa",
+      "nombre": "Grúas Olmué QA",
+      "telefonos": [
+        "+56 9 5066 5711"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Olmué (sin calle en la ficha)",
+      "baseComuna": "olmue",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 3 reseñas"
+      }
+    },
+    {
+      "id": "gruas-olmue",
+      "nombre": "Grúas Olmué",
+      "telefonos": [
+        "+56 9 3448 8185"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "La Bombilla 1877",
+      "baseComuna": "olmue",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 4 reseñas"
+      }
+    },
+    {
+      "id": "gruas-quillota-la-tirana-24-7",
+      "nombre": "Grúas Quillota La Tirana 24/7",
+      "telefonos": [
+        "+56 9 8463 3482"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Vicuña Mackenna 327",
+      "baseComuna": "quillota",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 7 reseñas"
+      }
+    },
+    {
+      "id": "gruas-quillota",
+      "nombre": "Grúas Quillota",
+      "telefonos": [
+        "+56 9 9258 5387"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "12 de Febrero 17",
+      "baseComuna": "quillota",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "30 reseñas, 4,4"
+      }
+    },
+    {
+      "id": "gruas-rescate-service-quillota",
+      "nombre": "Grúas Rescate Service Quillota",
+      "telefonos": [
+        "+56 9 3714 1489"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Los Naranjos 204",
+      "baseComuna": "quillota",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña"
+      }
+    },
+    {
+      "id": "gruas-valdes-quillota",
+      "nombre": "Grúas Valdés Quillota",
+      "telefonos": [
+        "+56 9 7614 0760"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "Yungay Oriente 600",
+      "baseComuna": "quillota",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 reseña"
+      }
+    },
+    {
+      "id": "servicio-de-grua-vjv-quillota",
+      "nombre": "Servicio de Grúa VJV Quillota",
+      "telefonos": [
+        "+56 9 5987 6394"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Merced 462",
+      "baseComuna": "quillota",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "servicio-de-gruas-d-y-f",
+      "nombre": "Servicio de Grúas D y F",
+      "telefonos": [
+        "+56 9 7514 0585"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Caupolicán 1083",
+      "baseComuna": "la-calera",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "83 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-24-horas-la-calera",
+      "nombre": "Grúas 24 Horas La Calera",
+      "telefonos": [
+        "+56 9 8263 1300"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Iquique con Cali",
+      "baseComuna": "la-calera",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Grúas 24 Horas (Valparaíso)"
+      }
+    },
+    {
+      "id": "gruas-franchile",
+      "nombre": "Grúas Franchile",
+      "telefonos": [
+        "+56 9 9731 2731"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Teresa 689",
+      "baseComuna": "la-calera",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-protowing",
+      "nombre": "Grúas Protowing",
+      "telefonos": [
+        "+56 9 5662 3953"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "O'Higgins 817",
+      "baseComuna": "la-calera",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Taller con servicio de grúa"
+      }
+    },
+    {
+      "id": "grua-hijuelas",
+      "nombre": "Grúa Hijuelas",
+      "telefonos": [
+        "+56 9 3901 6356"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Alameda de Rabuco 80",
+      "baseComuna": "hijuelas",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 2 reseñas"
+      }
+    },
+    {
+      "id": "servicio-de-grua-y-transportes-fredes",
+      "nombre": "Servicio de Grúa y Transportes Fredes",
+      "telefonos": [
+        "+56 9 5205 0339"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Hijuelas (sin calle en la ficha)",
+      "baseComuna": "hijuelas",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-y-transporte-ej",
+      "nombre": "Grúas y Transporte EJ",
+      "telefonos": [
+        "+56 9 7786 0502"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun, mié, jue, vie y dom 24 horas; mar y sáb 16:00–24:00",
+      "direccion": "La Peña, calle principal sitio 175",
+      "baseComuna": "nogales",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-vicmax",
+      "nombre": "Grúas Vicmax",
+      "telefonos": [
+        "+56 9 6391 7322"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "El Polígono, El Molle 12",
+      "baseComuna": "nogales",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "smitg-garage",
+      "nombre": "Smitg Garage",
+      "telefonos": [
+        "+56 9 4573 1008"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Pedro Félix Vicuña 904",
+      "baseComuna": "nogales",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Taller con servicio de grúa"
+      }
+    },
+    {
+      "id": "jts-gruas",
+      "nombre": "JTS Grúas",
+      "telefonos": [
+        "+56 9 7610 9667"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Todos los días 8:00–20:00",
+      "direccion": "Del Canelo 472, Llolleo",
+      "baseComuna": "san-antonio",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "grua-mendoza-algarrobo-el-quisco",
+      "nombre": "Grúa Mendoza Algarrobo El Quisco",
+      "telefonos": [
+        "+56 9 9323 0669"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Alicia Mönckeberg 1148",
+      "baseComuna": "algarrobo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Reseñas mixtas (una reclama trato)"
+      }
+    },
+    {
+      "id": "grua-y-fletes-barra",
+      "nombre": "Grúa y Fletes Barra",
+      "telefonos": [
+        "+56 9 8585 9123"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. M. de Amunátegui 875",
+      "baseComuna": "algarrobo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "También ofrece fletes"
+      }
+    },
+    {
+      "id": "gruas-litoral",
+      "nombre": "Grúas Litoral",
+      "telefonos": [
+        "+56 9 9339 5302"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Antares 2719",
+      "baseComuna": "algarrobo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Gruas-litoral-grúa Algarrobo"
+      }
+    },
+    {
+      "id": "grua-de-rescate-isla-negra",
+      "nombre": "Grúa de Rescate Isla Negra",
+      "telefonos": [
+        "+56 9 7834 0661"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Punta de Tralca 1600, Isla Negra",
+      "baseComuna": "el-quisco",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Grúa de Rescate; mismo número aparece en una ficha de Cartagena con reclamos de cobro, por eso no se agregó allí"
+      }
+    },
+    {
+      "id": "gruas-r-m-el-quisco-algarrobo",
+      "nombre": "Grúas R&M El Quisco Algarrobo",
+      "telefonos": [
+        "+56 9 6815 5436"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Isidoro Dubournais 1611",
+      "baseComuna": "el-quisco",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "algarrobo"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-ml",
+      "nombre": "Grúas ML",
+      "telefonos": [
+        "+56 9 5196 3240"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Avenida Norte 031",
+      "baseComuna": "cartagena",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-24",
+      "nombre": "Grúas 24",
+      "telefonos": [
+        "+56 9 8296 9922"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "El Tabo (sin calle en la ficha)",
+      "baseComuna": "el-tabo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Nombre en Google: Gruas24; 24 reseñas, 4,8"
+      }
+    },
+    {
+      "id": "gruas-tabo",
+      "nombre": "Grúas Tabo",
+      "telefonos": [
+        "+56 9 5844 0739"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Todos los días 10:30–18:00",
+      "direccion": "El Tabo (desarmaduría)",
+      "baseComuna": "el-tabo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: ficha sin reseñas"
+      }
+    },
+    {
+      "id": "gruas-y-retiro-de-escombros-aravena",
+      "nombre": "Grúas y Retiro de Escombros Aravena",
+      "telefonos": [
+        "+56 9 8182 9291"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Las Salinas 1277",
+      "baseComuna": "el-tabo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Las reseñas hablan sobre todo de retiro de escombros; confirmar el servicio de grúa"
+      }
+    },
+    {
+      "id": "grua-24-horas-el-tabo",
+      "nombre": "Grúa 24 horas El Tabo",
+      "telefonos": [
+        "+56 9 6503 5888"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. San Marcos",
+      "baseComuna": "el-tabo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 valoración sin reseña"
+      }
+    },
+    {
+      "id": "gruas-nando-los-andes",
+      "nombre": "Grúas Nando Los Andes",
+      "telefonos": [
+        "+56 9 7841 0548"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Sevilla 32 B",
+      "baseComuna": "los-andes",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "84 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas-andinas",
+      "nombre": "Grúas Andinas",
+      "telefonos": [
+        "+56 9 3108 4416"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Caletera 361",
+      "baseComuna": "los-andes",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Reseñas mixtas (una reclama por falta de factura)"
+      }
+    },
+    {
+      "id": "gruas-silva-gomez",
+      "nombre": "Grúas Silva & Gómez",
+      "telefonos": [
+        "+56 9 9319 3467"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Ernesto Montenegro 1502",
+      "baseComuna": "los-andes",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Reseñas mixtas (una indica que no contestaron)"
+      }
+    },
+    {
+      "id": "transportes-yanez-servicio-de-gruas",
+      "nombre": "Transportes Yáñez Servicio de Grúas",
+      "telefonos": [
+        "+56 9 7316 2644"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Por confirmar",
+      "direccion": "Los Villares 2880",
+      "baseComuna": "los-andes",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Reseñas mencionan traslado de vehículos hacia Argentina"
+      }
+    },
+    {
+      "id": "gruas-aguilar-e-hijo",
+      "nombre": "Grúas Aguilar e Hijo",
+      "telefonos": [
+        "+56 9 7616 0147"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Camino Internacional km 33",
+      "baseComuna": "los-andes",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 3 reseñas; ofrece también servicios mecánicos"
+      }
+    },
+    {
+      "id": "gruas-reyes",
+      "nombre": "Grúas Reyes",
+      "telefonos": [
+        "+56 9 7705 4947"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Carretera General San Martín",
+      "baseComuna": "rinconada",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "grua-en-san-felipe-9-5090-8011",
+      "nombre": "Grúa en San Felipe (9 5090 8011)",
+      "telefonos": [
+        "+56 9 5090 8011"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Bernardo Cruz 1488",
+      "baseComuna": "san-felipe",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 4 reseñas"
+      }
+    },
+    {
+      "id": "gruas-ch-san-felipe",
+      "nombre": "Grúas CH San Felipe",
+      "telefonos": [
+        "+56 9 3390 8938"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "San Felipe (sin calle en la ficha)",
+      "baseComuna": "san-felipe",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 2 reseñas"
+      }
+    },
+    {
+      "id": "gruas-max",
+      "nombre": "Grúas Max",
+      "telefonos": [
+        "+56 9 9439 5461"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Hermanos Carrera 36",
+      "baseComuna": "san-felipe",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Teléfono en 1 fuente; sin llamar"
+      }
+    },
+    {
+      "id": "gruas-san-antonio",
+      "nombre": "Grúas San Antonio",
+      "telefonos": [
+        "+56 9 6839 1998"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "Lun, mié–dom 8:00–22:00; mar 8:00–24:00",
+      "direccion": "Lauro Barros 60",
+      "baseComuna": "san-antonio",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 2 reseñas, una negativa por precio"
+      }
+    },
+    {
+      "id": "gruas-fuentes",
+      "nombre": "Grúas Fuentes",
+      "telefonos": [
+        "+56 9 8922 2553"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Pasaje Los Pinos, Catemu",
+      "baseComuna": "catemu",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "llaillay"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 valoración sin reseña"
+      }
+    },
+    {
+      "id": "servicio-de-vulcanizacion-y-grua-don-jose",
+      "nombre": "Servicio de Vulcanización y Grúa Don José",
+      "telefonos": [
+        "+56 9 9515 3471"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "Por confirmar",
+      "direccion": "Hugo Fuentes Sánchez 2073, Villa Amanecer",
+      "baseComuna": "llaillay",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "13 reseñas, 4,9"
+      }
+    },
+    {
+      "id": "gruas-vega",
+      "nombre": "Grúas Vega",
+      "telefonos": [
+        "+56 9 8830 1453"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Panquehue (sin calle en la ficha)",
+      "baseComuna": "panquehue",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 1 valoración sin reseña"
+      }
+    },
+    {
+      "id": "gruas-alvares",
+      "nombre": "Grúas Alvares",
+      "telefonos": [
+        "+56 9 7510 3194"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "San Roque, Panquehue",
+      "baseComuna": "panquehue",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: sin valoraciones"
+      }
+    },
+    {
+      "id": "gruas-la-ligua-24-7-escobar",
+      "nombre": "Grúas La Ligua 24/7 Escobar",
+      "telefonos": [
+        "+56 9 5830 4866"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Esmeralda 701, La Ligua",
+      "baseComuna": "la-ligua",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "papudo",
+          "zapallar"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Varias fichas con el mismo número (La Ligua, Papudo); 15 reseñas, 4,9; la ficha menciona plataformas hidráulicas"
+      }
+    },
+    {
+      "id": "grua-la-ligua-pullalli-y-longotoma",
+      "nombre": "Grúa La Ligua, Pullalli y Longotoma",
+      "telefonos": [
+        "+56 9 9536 4072"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Diego Portales 2801, La Chimba",
+      "baseComuna": "la-ligua",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "9 reseñas, 4,2; una indica precio algo alto"
+      }
+    },
+    {
+      "id": "gruas-agustin",
+      "nombre": "Grúas Agustín",
+      "telefonos": [
+        "+56 9 6674 0896"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Av. Las Salinas 62, Pullally",
+      "baseComuna": "papudo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: sin valoraciones"
+      }
+    },
+    {
+      "id": "gruas-riveros-24-7",
+      "nombre": "Grúas Riveros 24/7",
+      "telefonos": [
+        "+56 9 2712 5754"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Santa Mónica 2101",
+      "baseComuna": "santiago",
+      "cobertura": {
+        "tipo": "comunas",
+        "comunas": [
+          "san-ramon"
+        ]
+      },
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "6 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "gruas24h-cl",
+      "nombre": "Gruas24h.cl",
+      "telefonos": [
+        "+56 9 3406 3320"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Abate Molina 1375",
+      "baseComuna": "santiago",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 4 reseñas"
+      }
+    },
+    {
+      "id": "gruas-ramirez",
+      "nombre": "Grúas Ramírez",
+      "telefonos": [
+        "+56 9 7244 4843"
+      ],
+      "plan": "gratis",
+      "tipos": [
+        "autos",
+        "motos"
+      ],
+      "horario": "24 horas",
+      "direccion": "Freire 1703",
+      "baseComuna": "san-bernardo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "10 reseñas, 5,0; una reseña menciona traslado de motos"
+      }
+    },
+    {
+      "id": "servicio-de-grua-24-horas-rinconada-de-nos",
+      "nombre": "Servicio de Grúa 24 horas Rinconada de Nos",
+      "telefonos": [
+        "+56 9 4474 3171"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Rinconada de Nos 073",
+      "baseComuna": "san-bernardo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "Baja confianza: 3 reseñas"
+      }
+    },
+    {
+      "id": "grua-ya",
+      "nombre": "Grúa Ya",
+      "telefonos": [
+        "+56 9 6651 9561"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Camino El Fardo 1954",
+      "baseComuna": "san-bernardo",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "22 reseñas, 5,0"
+      }
+    },
+    {
+      "id": "adan-gruas",
+      "nombre": "Adán Grúas",
+      "telefonos": [
+        "+56 2 2511 7145"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Temuco 7982",
+      "baseComuna": "la-granja",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "28 reseñas, 4,4; teléfono fijo"
+      }
+    },
+    {
+      "id": "gruas-g-g",
+      "nombre": "Grúas G&G",
+      "telefonos": [
+        "+56 9 7780 7631"
+      ],
+      "plan": "gratis",
+      "tipos": [],
+      "horario": "24 horas",
+      "direccion": "Rivadavia 7601",
+      "baseComuna": "san-ramon",
+      "cobertura": null,
+      "interno": {
+        "fuente": "Google Maps",
+        "verificadoPorLlamada": false,
+        "nota": "8 reseñas, 5,0"
+      }
+    }
+  ]
+}

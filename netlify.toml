@@ -1,0 +1,133 @@
+[build]
+  command = "node build.mjs"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[build.processing]
+  skip_processing = false
+
+# Redirecciones desde las URLs del sitio anterior (solo se aplican si la página nueva no existe).
+[[redirects]]
+  from = "/FAQ"
+  to = "/preguntas-frecuentes/"
+  status = 301
+[[redirects]]
+  from = "/FAQ.html"
+  to = "/preguntas-frecuentes/"
+  status = 301
+[[redirects]]
+  from = "/terminos.html"
+  to = "/terminos/"
+  status = 301
+[[redirects]]
+  from = "/grua-para-autos.html"
+  to = "/grua-para-autos/"
+  status = 301
+[[redirects]]
+  from = "/grua-para-autos-form"
+  to = "/grua-para-autos/"
+  status = 301
+[[redirects]]
+  from = "/grua-para-autos-form.html"
+  to = "/grua-para-autos/"
+  status = 301
+[[redirects]]
+  from = "/grua-para-motos.html"
+  to = "/grua-para-motos/"
+  status = 301
+[[redirects]]
+  from = "/fletes-mudanzas"
+  to = "/grua-para-vehiculos-pesados/"
+  status = 301
+[[redirects]]
+  from = "/fletes-mudanzas.html"
+  to = "/grua-para-vehiculos-pesados/"
+  status = 301
+[[redirects]]
+  from = "/fletes-mudanzas-form"
+  to = "/grua-para-vehiculos-pesados/"
+  status = 301
+[[redirects]]
+  from = "/fletes-mudanzas-form.html"
+  to = "/grua-para-vehiculos-pesados/"
+  status = 301
+[[redirects]]
+  from = "/grua-comuna"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-comuna.html"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+# Comunas del sitio anterior que aún no tienen página nueva: van a la región.
+# Si una comuna alcanza el mínimo de empresas y se genera su página, la página nueva tiene prioridad.
+[[redirects]]
+  from = "/grua-providencia"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-providencia.html"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-las-condes"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-las-condes.html"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-nunoa"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-nunoa.html"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-macul"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-macul.html"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-la-florida"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-la-florida.html"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-la-cisterna"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-la-cisterna.html"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-san-miguel"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-san-miguel.html"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-san-joaquin"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-san-joaquin.html"
+  to = "/gruas-region-metropolitana/"
+  status = 301
+[[redirects]]
+  from = "/grua-santiago.html"
+  to = "/grua-santiago/"
+  status = 301

@@ -1,0 +1,42 @@
+[
+  {
+    "q": "¿Qué es GrúaFácil?",
+    "a": "GrúaFácil es un directorio de servicios de grúa organizado por comuna en la Región Metropolitana y la Región de Valparaíso, en Chile. Reúne el nombre, el teléfono y los datos básicos de cada empresa para que puedas llamar directo desde tu celular."
+  },
+  {
+    "q": "¿GrúaFácil presta el servicio de grúa?",
+    "a": "No. GrúaFácil no despacha grúas ni cobra por el traslado. El servicio, el tiempo de llegada y el precio los define cada empresa; tú la llamas directamente desde su ficha."
+  },
+  {
+    "q": "¿Cómo contacto a una grúa en mi comuna?",
+    "a": "Entra a la página de tu comuna, elige una empresa y toca el botón Llamar. En el celular se abre el marcador con el número listo. Dile tu ubicación exacta, el tipo de vehículo y el destino."
+  },
+  {
+    "q": "¿Qué comunas cubre el directorio?",
+    "a": "El directorio está pensado para las 52 comunas de la Región Metropolitana y las 38 de la Región de Valparaíso. Cada comuna tiene página propia cuando reúne suficientes empresas con datos de contacto; el resto se va sumando."
+  },
+  {
+    "q": "¿Cuánto cuesta una grúa?",
+    "a": "Depende de la empresa, la distancia, el horario, el tipo de vehículo y la dificultad del rescate. GrúaFácil no fija tarifas: pide el valor total antes de que la grúa salga y confirma qué incluye."
+  },
+  {
+    "q": "¿Cómo se ordenan las empresas de una comuna?",
+    "a": "Primero aparecen las empresas con plan Destacado (máximo 2 puestos por región), luego las de plan Regional y Esencial, y después las fichas gratuitas. Dentro de cada grupo se prioriza a las que tienen base en la comuna y luego se ordena por nombre. Las fichas destacadas llevan una etiqueta."
+  },
+  {
+    "q": "¿Qué datos debo tener a mano al llamar?",
+    "a": "Tu ubicación exacta (calle y número, o kilómetro y sentido si estás en una autopista), marca y modelo del vehículo, si el vehículo avanza o está inmovilizado, el destino y un teléfono de contacto."
+  },
+  {
+    "q": "¿Puedo pedir una grúa para una moto o un vehículo pesado?",
+    "a": "Sí, pero no todas las empresas atienden todos los tipos de vehículo. Al llamar, di si es una moto, un camión, un bus o maquinaria, y consulta si cuentan con el equipo adecuado. Encuentras más detalle en las guías de grúa para motos y para vehículos pesados."
+  },
+  {
+    "q": "¿Cada cuánto se actualiza la información?",
+    "a": "Los datos son referenciales y pueden cambiar. La fecha de la última actualización aparece en cada página. Si detectas un número o un horario incorrecto, avísanos por el formulario de contacto de la página de precios."
+  },
+  {
+    "q": "¿Cómo puede mi empresa de grúas aparecer en GrúaFácil?",
+    "a": "Completa el formulario de la página de precios y elige un plan mensual: $4.990 CLP para aparecer en 3 comunas principales, $14.990 CLP para toda una región, o $49.990 CLP para estar entre los 2 primeros puestos de toda la región."
+  }
+]

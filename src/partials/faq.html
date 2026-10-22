@@ -1,0 +1,13 @@
+{{#if faqs}}
+<section class="section faq" id="preguntas" aria-labelledby="faq-titulo">
+  <div class="wrap narrow">
+    <h2 id="faq-titulo">Preguntas frecuentes</h2>
+    {{#each faqs as f}}
+    <details class="faq-item">
+      <summary>{{ f.q }}</summary>
+      <p>{{ f.a }}</p>
+    </details>
+    {{/each}}
+  </div>
+</section>
+{{/if}}

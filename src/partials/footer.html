@@ -1,0 +1,38 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="/assets/img/logo/gruafacil_logo.png" width="148" height="29" alt="GrúaFácil" loading="lazy">
+        <p>Directorio de grúas por comuna en la Región Metropolitana y la Región de Valparaíso.</p>
+      </div>
+      <div>
+        <h2 class="foot-title">Directorio</h2>
+        <ul>
+          {{#each site.regiones as r}}<li><a href="{{ r.url }}">Grúas en la {{ r.nombre }}</a></li>{{/each}}
+          {{#each site.comunasConPagina as c}}<li><a href="{{ c.url }}">Grúa en {{ c.nombre }}</a></li>{{/each}}
+        </ul>
+      </div>
+      <div>
+        <h2 class="foot-title">Guías</h2>
+        <ul>
+          <li><a href="/grua-para-autos/">Grúa para autos</a></li>
+          <li><a href="/grua-para-motos/">Grúa para motos</a></li>
+          <li><a href="/grua-para-vehiculos-pesados/">Grúa para vehículos pesados</a></li>
+          <li><a href="/que-hacer-si-necesitas-una-grua/">Qué hacer si necesitas una grúa</a></li>
+          <li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="foot-title">Empresas y sitio</h2>
+        <ul>
+          <li><a href="/precios/">Precios para empresas de grúas</a></li>
+          <li><a href="/sobre-gruafacil/">Sobre GrúaFácil</a></li>
+          <li><a href="/terminos/">Términos y condiciones</a></li>
+          <li><a href="/privacidad/">Política de privacidad</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="foot-note">GrúaFácil es un directorio: no presta servicios de grúa. Los datos son referenciales; confirma disponibilidad y precio al llamar. Última actualización de datos: {{ site.actualizado }}.</p>
+    <p class="foot-copy">© {{ site.anio }} GrúaFácil · Chile</p>
+  </div>
+</footer>

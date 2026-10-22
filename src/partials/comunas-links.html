@@ -1,0 +1,11 @@
+{{#if site.comunasConPagina}}
+<section class="section section-soft" aria-labelledby="comunas-titulo">
+  <div class="wrap">
+    <h2 id="comunas-titulo">Encuentra una grúa en tu comuna</h2>
+    <ul class="chips">
+      {{#each site.comunasConPagina as c}}<li><a class="chip" href="{{ c.url }}">Grúa en {{ c.nombre }}</a></li>{{/each}}
+    </ul>
+    <p class="muted">Las páginas por comuna se activan cuando reunimos suficientes empresas con datos de contacto. También puedes revisar la página de tu región.</p>
+  </div>
+</section>
+{{/if}}

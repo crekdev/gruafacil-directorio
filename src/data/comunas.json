@@ -1,0 +1,542 @@
+[
+ {
+  "slug": "cerrillos",
+  "nombre": "Cerrillos",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "cerro-navia",
+  "nombre": "Cerro Navia",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "conchali",
+  "nombre": "Conchalí",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "el-bosque",
+  "nombre": "El Bosque",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "estacion-central",
+  "nombre": "Estación Central",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "huechuraba",
+  "nombre": "Huechuraba",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "independencia",
+  "nombre": "Independencia",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "la-cisterna",
+  "nombre": "La Cisterna",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "la-florida",
+  "nombre": "La Florida",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "la-granja",
+  "nombre": "La Granja",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "la-pintana",
+  "nombre": "La Pintana",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "la-reina",
+  "nombre": "La Reina",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "las-condes",
+  "nombre": "Las Condes",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "lo-barnechea",
+  "nombre": "Lo Barnechea",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "lo-espejo",
+  "nombre": "Lo Espejo",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "lo-prado",
+  "nombre": "Lo Prado",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "macul",
+  "nombre": "Macul",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "maipu",
+  "nombre": "Maipú",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "nunoa",
+  "nombre": "Ñuñoa",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "pedro-aguirre-cerda",
+  "nombre": "Pedro Aguirre Cerda",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "penalolen",
+  "nombre": "Peñalolén",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "providencia",
+  "nombre": "Providencia",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "pudahuel",
+  "nombre": "Pudahuel",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "quilicura",
+  "nombre": "Quilicura",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "quinta-normal",
+  "nombre": "Quinta Normal",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "recoleta",
+  "nombre": "Recoleta",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "renca",
+  "nombre": "Renca",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "san-joaquin",
+  "nombre": "San Joaquín",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "san-miguel",
+  "nombre": "San Miguel",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "san-ramon",
+  "nombre": "San Ramón",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "santiago",
+  "nombre": "Santiago",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "vitacura",
+  "nombre": "Vitacura",
+  "region": "region-metropolitana",
+  "provincia": "Santiago"
+ },
+ {
+  "slug": "puente-alto",
+  "nombre": "Puente Alto",
+  "region": "region-metropolitana",
+  "provincia": "Cordillera"
+ },
+ {
+  "slug": "pirque",
+  "nombre": "Pirque",
+  "region": "region-metropolitana",
+  "provincia": "Cordillera"
+ },
+ {
+  "slug": "san-jose-de-maipo",
+  "nombre": "San José de Maipo",
+  "region": "region-metropolitana",
+  "provincia": "Cordillera"
+ },
+ {
+  "slug": "colina",
+  "nombre": "Colina",
+  "region": "region-metropolitana",
+  "provincia": "Chacabuco"
+ },
+ {
+  "slug": "lampa",
+  "nombre": "Lampa",
+  "region": "region-metropolitana",
+  "provincia": "Chacabuco"
+ },
+ {
+  "slug": "tiltil",
+  "nombre": "Tiltil",
+  "region": "region-metropolitana",
+  "provincia": "Chacabuco"
+ },
+ {
+  "slug": "san-bernardo",
+  "nombre": "San Bernardo",
+  "region": "region-metropolitana",
+  "provincia": "Maipo"
+ },
+ {
+  "slug": "buin",
+  "nombre": "Buin",
+  "region": "region-metropolitana",
+  "provincia": "Maipo"
+ },
+ {
+  "slug": "calera-de-tango",
+  "nombre": "Calera de Tango",
+  "region": "region-metropolitana",
+  "provincia": "Maipo"
+ },
+ {
+  "slug": "paine",
+  "nombre": "Paine",
+  "region": "region-metropolitana",
+  "provincia": "Maipo"
+ },
+ {
+  "slug": "melipilla",
+  "nombre": "Melipilla",
+  "region": "region-metropolitana",
+  "provincia": "Melipilla"
+ },
+ {
+  "slug": "alhue",
+  "nombre": "Alhué",
+  "region": "region-metropolitana",
+  "provincia": "Melipilla"
+ },
+ {
+  "slug": "curacavi",
+  "nombre": "Curacaví",
+  "region": "region-metropolitana",
+  "provincia": "Melipilla"
+ },
+ {
+  "slug": "maria-pinto",
+  "nombre": "María Pinto",
+  "region": "region-metropolitana",
+  "provincia": "Melipilla"
+ },
+ {
+  "slug": "san-pedro",
+  "nombre": "San Pedro",
+  "region": "region-metropolitana",
+  "provincia": "Melipilla"
+ },
+ {
+  "slug": "talagante",
+  "nombre": "Talagante",
+  "region": "region-metropolitana",
+  "provincia": "Talagante"
+ },
+ {
+  "slug": "el-monte",
+  "nombre": "El Monte",
+  "region": "region-metropolitana",
+  "provincia": "Talagante"
+ },
+ {
+  "slug": "isla-de-maipo",
+  "nombre": "Isla de Maipo",
+  "region": "region-metropolitana",
+  "provincia": "Talagante"
+ },
+ {
+  "slug": "padre-hurtado",
+  "nombre": "Padre Hurtado",
+  "region": "region-metropolitana",
+  "provincia": "Talagante"
+ },
+ {
+  "slug": "penaflor",
+  "nombre": "Peñaflor",
+  "region": "region-metropolitana",
+  "provincia": "Talagante"
+ },
+ {
+  "slug": "valparaiso",
+  "nombre": "Valparaíso",
+  "region": "region-de-valparaiso",
+  "provincia": "Valparaíso"
+ },
+ {
+  "slug": "casablanca",
+  "nombre": "Casablanca",
+  "region": "region-de-valparaiso",
+  "provincia": "Valparaíso"
+ },
+ {
+  "slug": "concon",
+  "nombre": "Concón",
+  "region": "region-de-valparaiso",
+  "provincia": "Valparaíso"
+ },
+ {
+  "slug": "juan-fernandez",
+  "nombre": "Juan Fernández",
+  "region": "region-de-valparaiso",
+  "provincia": "Valparaíso"
+ },
+ {
+  "slug": "puchuncavi",
+  "nombre": "Puchuncaví",
+  "region": "region-de-valparaiso",
+  "provincia": "Valparaíso"
+ },
+ {
+  "slug": "quintero",
+  "nombre": "Quintero",
+  "region": "region-de-valparaiso",
+  "provincia": "Valparaíso"
+ },
+ {
+  "slug": "vina-del-mar",
+  "nombre": "Viña del Mar",
+  "region": "region-de-valparaiso",
+  "provincia": "Valparaíso"
+ },
+ {
+  "slug": "isla-de-pascua",
+  "nombre": "Isla de Pascua",
+  "region": "region-de-valparaiso",
+  "provincia": "Isla de Pascua"
+ },
+ {
+  "slug": "los-andes",
+  "nombre": "Los Andes",
+  "region": "region-de-valparaiso",
+  "provincia": "Los Andes"
+ },
+ {
+  "slug": "calle-larga",
+  "nombre": "Calle Larga",
+  "region": "region-de-valparaiso",
+  "provincia": "Los Andes"
+ },
+ {
+  "slug": "rinconada",
+  "nombre": "Rinconada",
+  "region": "region-de-valparaiso",
+  "provincia": "Los Andes"
+ },
+ {
+  "slug": "san-esteban",
+  "nombre": "San Esteban",
+  "region": "region-de-valparaiso",
+  "provincia": "Los Andes"
+ },
+ {
+  "slug": "la-ligua",
+  "nombre": "La Ligua",
+  "region": "region-de-valparaiso",
+  "provincia": "Petorca"
+ },
+ {
+  "slug": "cabildo",
+  "nombre": "Cabildo",
+  "region": "region-de-valparaiso",
+  "provincia": "Petorca"
+ },
+ {
+  "slug": "papudo",
+  "nombre": "Papudo",
+  "region": "region-de-valparaiso",
+  "provincia": "Petorca"
+ },
+ {
+  "slug": "petorca",
+  "nombre": "Petorca",
+  "region": "region-de-valparaiso",
+  "provincia": "Petorca"
+ },
+ {
+  "slug": "zapallar",
+  "nombre": "Zapallar",
+  "region": "region-de-valparaiso",
+  "provincia": "Petorca"
+ },
+ {
+  "slug": "quillota",
+  "nombre": "Quillota",
+  "region": "region-de-valparaiso",
+  "provincia": "Quillota"
+ },
+ {
+  "slug": "la-calera",
+  "nombre": "La Calera",
+  "region": "region-de-valparaiso",
+  "provincia": "Quillota"
+ },
+ {
+  "slug": "hijuelas",
+  "nombre": "Hijuelas",
+  "region": "region-de-valparaiso",
+  "provincia": "Quillota"
+ },
+ {
+  "slug": "la-cruz",
+  "nombre": "La Cruz",
+  "region": "region-de-valparaiso",
+  "provincia": "Quillota"
+ },
+ {
+  "slug": "nogales",
+  "nombre": "Nogales",
+  "region": "region-de-valparaiso",
+  "provincia": "Quillota"
+ },
+ {
+  "slug": "san-antonio",
+  "nombre": "San Antonio",
+  "region": "region-de-valparaiso",
+  "provincia": "San Antonio"
+ },
+ {
+  "slug": "algarrobo",
+  "nombre": "Algarrobo",
+  "region": "region-de-valparaiso",
+  "provincia": "San Antonio"
+ },
+ {
+  "slug": "cartagena",
+  "nombre": "Cartagena",
+  "region": "region-de-valparaiso",
+  "provincia": "San Antonio"
+ },
+ {
+  "slug": "el-quisco",
+  "nombre": "El Quisco",
+  "region": "region-de-valparaiso",
+  "provincia": "San Antonio"
+ },
+ {
+  "slug": "el-tabo",
+  "nombre": "El Tabo",
+  "region": "region-de-valparaiso",
+  "provincia": "San Antonio"
+ },
+ {
+  "slug": "santo-domingo",
+  "nombre": "Santo Domingo",
+  "region": "region-de-valparaiso",
+  "provincia": "San Antonio"
+ },
+ {
+  "slug": "san-felipe",
+  "nombre": "San Felipe",
+  "region": "region-de-valparaiso",
+  "provincia": "San Felipe de Aconcagua"
+ },
+ {
+  "slug": "catemu",
+  "nombre": "Catemu",
+  "region": "region-de-valparaiso",
+  "provincia": "San Felipe de Aconcagua"
+ },
+ {
+  "slug": "llaillay",
+  "nombre": "Llaillay",
+  "region": "region-de-valparaiso",
+  "provincia": "San Felipe de Aconcagua"
+ },
+ {
+  "slug": "panquehue",
+  "nombre": "Panquehue",
+  "region": "region-de-valparaiso",
+  "provincia": "San Felipe de Aconcagua"
+ },
+ {
+  "slug": "putaendo",
+  "nombre": "Putaendo",
+  "region": "region-de-valparaiso",
+  "provincia": "San Felipe de Aconcagua"
+ },
+ {
+  "slug": "santa-maria",
+  "nombre": "Santa María",
+  "region": "region-de-valparaiso",
+  "provincia": "San Felipe de Aconcagua"
+ },
+ {
+  "slug": "quilpue",
+  "nombre": "Quilpué",
+  "region": "region-de-valparaiso",
+  "provincia": "Marga Marga"
+ },
+ {
+  "slug": "limache",
+  "nombre": "Limache",
+  "region": "region-de-valparaiso",
+  "provincia": "Marga Marga"
+ },
+ {
+  "slug": "olmue",
+  "nombre": "Olmué",
+  "region": "region-de-valparaiso",
+  "provincia": "Marga Marga"
+ },
+ {
+  "slug": "villa-alemana",
+  "nombre": "Villa Alemana",
+  "region": "region-de-valparaiso",
+  "provincia": "Marga Marga"
+ }
+]

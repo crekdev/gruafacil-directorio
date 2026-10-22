@@ -1,0 +1,51 @@
+<div class="wrap">{{> breadcrumbs}}</div>
+<section class="page-head">
+  <div class="wrap">
+    <h1>Servicio de grúa en {{ comuna.nombre }}</h1>
+    <p class="lead">{{ introTexto }}</p>
+    <div class="summary" role="note">
+      <strong>Resumen:</strong> {{ resumenTexto }}
+    </div>
+    <p class="updated">Actualizado: {{ actualizado }}</p>
+  </div>
+</section>
+
+<section class="section" id="directorio" aria-labelledby="dir-titulo">
+  <div class="wrap">
+    <h2 id="dir-titulo">Grúas en {{ comuna.nombre }}: llama directo</h2>
+    <div class="grid grid-2">
+      {{#each empresas as e}}{{> tarjeta-empresa}}{{/each}}
+    </div>
+    <p class="muted disclaimer">Los datos son referenciales. Confirma disponibilidad, tipo de vehículo, tiempo de llegada y precio total al llamar. GrúaFácil no presta el servicio de grúa.</p>
+  </div>
+</section>
+
+<section class="section section-soft" id="al-llamar" aria-labelledby="llamar-titulo">
+  <div class="wrap narrow">
+    <h2 id="llamar-titulo">Qué tener a mano al llamar a una grúa en {{ comuna.nombre }}</h2>
+    <ol class="steps">
+      <li>Tu ubicación exacta: calle y número, o kilómetro y sentido si estás en una autopista.</li>
+      <li>Marca, modelo y tipo de vehículo (auto, moto o pesado) y si avanza o está inmovilizado.</li>
+      <li>El destino: taller, casa u otra dirección.</li>
+      <li>Un teléfono de contacto y la patente del vehículo.</li>
+      <li>La confirmación del precio total y del tiempo estimado de llegada.</li>
+    </ol>
+    <p>Más detalle en la guía <a href="/que-hacer-si-necesitas-una-grua/">qué hacer si necesitas una grúa</a>, y según tu vehículo: <a href="/grua-para-autos/">autos</a>, <a href="/grua-para-motos/">motos</a> y <a href="/grua-para-vehiculos-pesados/">vehículos pesados</a>.</p>
+  </div>
+</section>
+
+{{> faq}}
+
+<section class="section" aria-labelledby="cerca-titulo">
+  <div class="wrap">
+    <h2 id="cerca-titulo">Otras comunas de la provincia de {{ comuna.provincia }}</h2>
+    <ul class="chips">
+      {{#each hermanas as c}}
+      <li>{{#if c.url}}<a class="chip" href="{{ c.url }}">Grúa en {{ c.nombre }}</a>{{else}}<span class="chip chip-off">{{ c.nombre }}</span>{{/if}}</li>
+      {{/each}}
+    </ul>
+    <p><a href="{{ region.url }}">Ver todas las comunas de la {{ region.nombre }}</a></p>
+  </div>
+</section>
+
+{{> cta-empresas}}

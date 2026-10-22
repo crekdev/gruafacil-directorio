@@ -1,0 +1,72 @@
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Directorio de grúas en Chile</p>
+    <h1>Grúas por comuna en la Región Metropolitana y Valparaíso</h1>
+    <p class="lead">Encuentra servicios de grúa para autos, motos y vehículos pesados, y llámalos directo desde tu celular.</p>
+    <div class="finder" id="buscador">
+      <label for="comuna-select">¿En qué comuna estás?</label>
+      <div class="finder-row">
+        <select id="comuna-select">
+          <option value="">Elige tu comuna</option>
+          {{#each grupos as g}}
+          <optgroup label="{{ g.region }}">
+            {{#each g.comunas as c}}<option value="{{ c.url }}">{{ c.nombre }}</option>{{/each}}
+          </optgroup>
+          {{/each}}
+        </select>
+        <button type="button" id="comuna-go" class="btn btn-accent">Ver grúas</button>
+      </div>
+    </div>
+    <p class="hero-regions">O elige tu región:
+      {{#each regiones as r}}<a href="{{ r.url }}">{{ r.nombre }}</a>{{#if !last}} · {{/if}}{{/each}}
+    </p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="regiones-titulo">
+  <div class="wrap">
+    <h2 id="regiones-titulo">Grúas por región</h2>
+    <div class="grid grid-2">
+      {{#each regiones as r}}
+      <a class="card card-link" href="{{ r.url }}">
+        <svg class="ico ico-lg" aria-hidden="true"><use href="#i-map"/></svg>
+        <h3>{{ r.nombre }}</h3>
+        <p>{{ r.resumen }}</p>
+        <span class="more">Ver grúas en la región →</span>
+      </a>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+{{> comunas-links}}
+
+<section class="section" aria-labelledby="servicios-titulo">
+  <div class="wrap">
+    <h2 id="servicios-titulo">Grúas según tu vehículo</h2>
+    <div class="grid grid-3">
+      {{#each servicios as s}}
+      <a class="card card-link" href="{{ s.url }}">
+        <svg class="ico ico-lg" aria-hidden="true"><use href="#i-truck"/></svg>
+        <h3>{{ s.titulo }}</h3>
+        <p>{{ s.texto }}</p>
+        <span class="more">Leer la guía →</span>
+      </a>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" aria-labelledby="como-titulo">
+  <div class="wrap">
+    <h2 id="como-titulo">Cómo usar el directorio</h2>
+    <ol class="steps">
+      <li><strong>Elige tu comuna.</strong> Cada comuna tiene su lista de grúas con teléfono.</li>
+      <li><strong>Toca Llamar.</strong> En tu celular se abre el marcador con el número listo.</li>
+      <li><strong>Da tu ubicación y confirma el precio.</strong> Pide el valor total antes de que salga la grúa.</li>
+    </ol>
+  </div>
+</section>
+
+{{> cta-empresas}}
+{{> faq}}
