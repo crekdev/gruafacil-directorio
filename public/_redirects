@@ -1,0 +1,32 @@
+# Redirecciones desde el sitio anterior. Equivalen a las de netlify.toml y sirven cuando se sube la carpeta dist directo a Netlify (sin repositorio).
+
+/FAQ  /preguntas-frecuentes/  301
+/FAQ.html  /preguntas-frecuentes/  301
+/terminos.html  /terminos/  301
+/grua-para-autos.html  /grua-para-autos/  301
+/grua-para-autos-form  /grua-para-autos/  301
+/grua-para-autos-form.html  /grua-para-autos/  301
+/grua-para-motos.html  /grua-para-motos/  301
+/fletes-mudanzas  /grua-para-vehiculos-pesados/  301
+/fletes-mudanzas.html  /grua-para-vehiculos-pesados/  301
+/fletes-mudanzas-form  /grua-para-vehiculos-pesados/  301
+/fletes-mudanzas-form.html  /grua-para-vehiculos-pesados/  301
+/grua-comuna  /gruas-region-metropolitana/  301
+/grua-comuna.html  /gruas-region-metropolitana/  301
+/grua-providencia  /gruas-region-metropolitana/  301
+/grua-providencia.html  /gruas-region-metropolitana/  301
+/grua-las-condes  /gruas-region-metropolitana/  301
+/grua-las-condes.html  /gruas-region-metropolitana/  301
+/grua-nunoa  /gruas-region-metropolitana/  301
+/grua-nunoa.html  /gruas-region-metropolitana/  301
+/grua-macul  /gruas-region-metropolitana/  301
+/grua-macul.html  /gruas-region-metropolitana/  301
+/grua-la-florida  /gruas-region-metropolitana/  301
+/grua-la-florida.html  /gruas-region-metropolitana/  301
+/grua-la-cisterna  /gruas-region-metropolitana/  301
+/grua-la-cisterna.html  /gruas-region-metropolitana/  301
+/grua-san-miguel  /gruas-region-metropolitana/  301
+/grua-san-miguel.html  /gruas-region-metropolitana/  301
+/grua-san-joaquin  /gruas-region-metropolitana/  301
+/grua-san-joaquin.html  /gruas-region-metropolitana/  301
+/grua-santiago.html  /grua-santiago/  301

@@ -43,6 +43,13 @@ Orden en cada comuna: Destacado (máx. 2 por región) → Regional → Esencial 
 
 Una comuna recibe página propia cuando reúne al menos 1 empresa (`minEmpresasParaPagina` en `src/config.mjs`, hoy 1 para publicar todo lo encontrado). Si quieres evitar páginas con poco contenido (riesgo de contenido delgado en buscadores), súbelo a 3: esas comunas dejan de tener página y quedan como texto sin enlace en la página de su región.
 
+### Contenido propio por comuna y qué se indexa
+
+Cada página de comuna incluye, además de sus empresas, una sección «Ubicación y comunas cercanas» y preguntas frecuentes con datos propios (qué empresas tienen base allí, comunas cercanas con distancia, distancia a la capital regional). Salen de `src/data/coordenadas.json` (punto de referencia de cada comuna, normalmente su municipalidad) y de `src/lib/geo.mjs`. Las distancias son en línea recta y se presentan como referenciales. Si agregas una comuna nueva, agrega también su coordenada.
+
+Las páginas con menos de `minEmpresasParaIndexar` empresas (hoy 2) se publican con `noindex,follow` y quedan fuera del sitemap y de `llms.txt`, para no ofrecer a Google páginas con un solo teléfono. Pon ese valor en 1 para indexarlas todas. `radioCercanasKm` y `maxCercanas` controlan la lista de comunas cercanas.
+
+
 ## Planes y formulario
 
 Precios en `src/data/planes.json` (Esencial $4.990, Regional $14.990, Destacado $49.990 CLP/mes). El formulario de `/precios/` es un Netlify Form (`grueros-planes`, con honeypot) y redirige a `/gracias/`. Activa las notificaciones por correo en Netlify → Forms.

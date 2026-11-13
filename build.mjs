@@ -11,6 +11,7 @@ import { createEngine } from './src/lib/template.mjs';
 import { clp, fechaLarga, jsonLdTag, recortar, unir } from './src/lib/utils.mjs';
 import { empresasDeComuna, prepararTarjeta, validarDatos, ordenar } from './src/lib/listing.mjs';
 import * as schema from './src/lib/schema.mjs';
+import { distanciaKm, kmTexto, masCercanas } from './src/lib/geo.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const DIST = join(ROOT, 'dist');
@@ -22,6 +23,7 @@ const { actualizado, empresas } = leer('empresas.json');
 const planes = leer('planes.json');
 const faqsGenerales = leer('faqs.json');
 const contenido = leer('contenido.json');
+const coordenadas = leer('coordenadas.json'); // slug -> [lat, lon] de referencia de cada comuna
 
 const errores = validarDatos({ comunas, empresas, maxDestacados: SITE.maxDestacadosPorRegion });
 if (errores.length) {
@@ -50,6 +52,9 @@ for (const c of comunas) {
   infoComuna.set(c.slug, { lista, tienePagina: lista.length >= SITE.minEmpresasParaPagina });
 }
 const comunasConPagina = comunas.filter((c) => infoComuna.get(c.slug).tienePagina);
+const seIndexa = (c) => infoComuna.get(c.slug).lista.length >= SITE.minEmpresasParaIndexar;
+const comunaPorSlug = Object.fromEntries(comunas.map((c) => [c.slug, c]));
+const capitalDe = (r) => comunas.find((c) => c.nombre === r.capital);
 
 const site = {
   name: SITE.name,
@@ -182,6 +187,43 @@ for (const c of comunasConPagina) {
   const motos = lista.filter((e) => e.tipos?.includes('motos')).map((e) => e.nombre);
   const pesados = lista.filter((e) => e.tipos?.includes('pesados')).map((e) => e.nombre);
 
+  // --- ubicación y comunas cercanas (datos geográficos de referencia, en línea recta) ---
+  const capital = capitalDe(r);
+  const esCapital = capital.slug === c.slug;
+  const kmCapital = esCapital ? 0 : distanciaKm(coordenadas[c.slug], coordenadas[capital.slug]);
+  const esInsular = kmCapital > 300; // Isla de Pascua y Juan Fernández
+  const candidatas = comunasConPagina.filter((x) => x.slug !== c.slug && coordenadas[x.slug]);
+  const ordenadas = esInsular ? [] : masCercanas(c, candidatas, coordenadas);
+  let cercanasSel = ordenadas.filter((x) => x.km <= SITE.radioCercanasKm).slice(0, SITE.maxCercanas);
+  const sinCercanasEnRadio = !esInsular && cercanasSel.length === 0;
+  if (sinCercanasEnRadio) cercanasSel = ordenadas.slice(0, 2);
+  const cercanas = cercanasSel.map(({ c: x, km }) => {
+    const l = infoComuna.get(x.slug).lista;
+    const nombresBase = l.filter((e) => e.esBase).slice(0, 3).map((e) => e.nombre);
+    return {
+      nombre: x.nombre,
+      url: urlComuna(x),
+      km: kmTexto(km),
+      total: l.length,
+      servicios: `${l.length} ${l.length === 1 ? 'servicio listado' : 'servicios listados'}`,
+      empresasTexto: nombresBase.length ? unir(nombresBase) : '',
+    };
+  });
+  const nombresCerca = cercanas.length > 3 ? cercanas.slice(0, 3).map((x) => x.nombre).join(', ') : unir(cercanas.map((x) => x.nombre));
+  const provinciaTxt = c.provincia === c.nombre ? `Provincia de ${c.provincia}` : `Provincia de ${c.provincia}`;
+  const ubicacionTexto = esInsular
+    ? `${c.nombre} es un territorio insular de la ${r.nombre}, a ${kmTexto(kmCapital)} en línea recta de ${capital.nombre}. Por la distancia con el continente, las empresas de grúa de otras comunas de este directorio no son una alternativa práctica.`
+    : esCapital
+      ? `${c.nombre} es la capital de la ${r.nombre} (${provinciaTxt}). Es el punto de referencia que usamos para medir distancias dentro de la región.`
+      : `${c.nombre} pertenece a la ${provinciaTxt}, en la ${r.nombre}, y queda a ${kmTexto(kmCapital)} en línea recta del centro de ${capital.nombre}.` +
+        (cercanas.length
+          ? sinCercanasEnRadio
+            ? ` Las comunas con servicio listado más cercanas están a ${kmTexto(cercanasSel[0].km)} (${cercanas[0].nombre}) y ${kmTexto(cercanasSel[1]?.km ?? cercanasSel[0].km)} (${cercanas[1]?.nombre ?? cercanas[0].nombre}).`
+            : ` ${cercanas.length === 1 ? 'La comuna cercana con servicio listado es' : 'Entre las comunas cercanas con servicio listado están'} ${nombresCerca}${cercanas.length > 3 ? ` y ${cercanas.length - 3} más` : ''}.`
+          : '');
+  const basesExternas = [...new Set(lista.filter((e) => !e.esBase).map((e) => comunaPorSlug[e.baseComuna]?.nombre).filter(Boolean))];
+  const baseNombres = lista.filter((e) => e.esBase).map((e) => e.nombre);
+
   const plural = (k, uno, varios) => `${k} ${k === 1 ? uno : varios}`;
   const detalle = (nB, nC) =>
     nB && nC
@@ -228,6 +270,33 @@ for (const c of comunasConPagina) {
         : `Las fichas no informan si atienden vehículos pesados. Pregunta al llamar por la capacidad del equipo y entrega el peso del vehículo.`,
     },
   ];
+  // Preguntas con datos propios de la comuna (base de cada empresa y distancias de referencia).
+  if (baseNombres.length) {
+    faqs.push({
+      q: `¿Qué empresas de grúa tienen base en ${c.nombre}?`,
+      a: `${unir(baseNombres)} ${baseNombres.length === 1 ? 'figura con base' : 'figuran con base'} en ${c.nombre}.` +
+        (basesExternas.length ? ` Además, ${plural(nCob, 'empresa declara', 'empresas declaran')} cobertura desde ${unir(basesExternas)}.` : ''),
+    });
+  } else if (basesExternas.length) {
+    faqs.push({
+      q: `¿Desde dónde atienden las grúas que cubren ${c.nombre}?`,
+      a: `Ninguna empresa listada tiene base en ${c.nombre}: ${n === 1 ? 'el servicio atiende' : 'los servicios atienden'} desde ${unir(basesExternas)}. Pregunta el tiempo de llegada al llamar, porque depende de la distancia.`,
+    });
+  }
+  if (cercanas.length) {
+    faqs.push({
+      q: `¿Qué comunas cercanas a ${c.nombre} tienen servicio de grúa?`,
+      a: sinCercanasEnRadio
+        ? `Las más cercanas con servicio listado son ${unir(cercanas.map((x) => `${x.nombre} (a ${x.km})`))}, en línea recta. Revisa sus páginas en GrúaFácil.`
+        : `Las más cercanas con servicio listado son ${unir(cercanas.map((x) => `${x.nombre} (a ${x.km})`))}, medidas en línea recta. Cada una tiene su propia página con teléfonos.`,
+    });
+  }
+  if (!esCapital && !esInsular) {
+    faqs.push({
+      q: `¿Qué tan lejos está ${c.nombre} de ${capital.nombre}?`,
+      a: `El centro de ${c.nombre} queda a ${kmTexto(kmCapital)} en línea recta del centro de ${capital.nombre}. El recorrido real por calles y autopistas es mayor, y el valor del traslado depende de la distancia efectiva, así que pide el precio total antes de aceptar.`,
+    });
+  }
 
   const hermanas = comunas
     .filter((x) => x.region === c.region && x.provincia === c.provincia && x.slug !== c.slug)
@@ -238,16 +307,23 @@ for (const c of comunasConPagina) {
   addPagina({
     url,
     template: 'comuna',
-    title: `Grúa en ${c.nombre}: ${n} servicios con teléfono | GrúaFácil`,
+    title: `Grúa en ${c.nombre}: ${n} ${n === 1 ? 'servicio' : 'servicios'} con teléfono | GrúaFácil`,
     description: recortar(
-      `Servicios de grúa en ${c.nombre}: ${n} empresas con teléfono para llamar directo. Autos, motos y vehículos pesados en la ${r.nombre}.`,
+      `Grúa en ${c.nombre} (${c.provincia}, ${r.corto}): ${n} ${n === 1 ? 'servicio' : 'servicios'} con teléfono` +
+        (n24 ? `, ${n24} con atención 24 horas` : '') +
+        `. ` +
+        (nBase ? `${nBase} con base en la comuna. ` : `Atienden desde comunas cercanas. `) +
+        `Llama directo.`,
     ),
+    ...(seIndexa(c) ? {} : { robots: 'noindex,follow', indexable: false }),
     data: {
       comuna: c,
       region: r,
       empresas: tarjetas,
       introTexto: `Directorio de grúas en ${c.nombre}, ${c.provincia === c.nombre ? 'Provincia de ' + c.provincia : 'Provincia de ' + c.provincia}, ${r.nombre}. Elige una empresa, toca Llamar y confirma el servicio.`,
       resumenTexto,
+      ubicacionTexto,
+      cercanas,
       actualizado: site.actualizado,
       faqs,
       hermanas,
@@ -401,7 +477,7 @@ const llms = [
   ...REGIONES.map((r) => lineaPagina(porUrl[r.url], `comunas y empresas de grúa de la ${r.nombre}.`)),
   '',
   '## Comunas con empresas listadas',
-  ...comunasConPagina.map((c) => lineaPagina(porUrl[urlComuna(c)], `${infoComuna.get(c.slug).lista.length} servicios de grúa con teléfono en ${c.nombre}.`)),
+  ...comunasConPagina.filter(seIndexa).map((c) => lineaPagina(porUrl[urlComuna(c)], `${infoComuna.get(c.slug).lista.length} servicios de grúa con teléfono en ${c.nombre}.`)),
   '',
   '## Guías',
   ...contenido

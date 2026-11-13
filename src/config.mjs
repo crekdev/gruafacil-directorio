@@ -11,6 +11,12 @@ export const SITE = {
   googleVerification: 'ObomO16ELJbJi6mv83xSbx65eE6ZyAtyMEU68EFK5kI',
   // Una comuna solo tiene página propia si reúne al menos este número de empresas (evita páginas vacías).
   minEmpresasParaPagina: 1,
+  // Las páginas con menos empresas que esto se publican, pero con noindex y fuera del sitemap
+  // (contenido poco útil para buscadores hasta que haya más datos). Pon 1 para indexarlas todas.
+  minEmpresasParaIndexar: 2,
+  // Radio (km, en línea recta) para listar comunas cercanas con servicio, y máximo a mostrar.
+  radioCercanasKm: 60,
+  maxCercanas: 5,
   // Máximo de empresas con plan Destacado por región (los 2 primeros puestos).
   maxDestacadosPorRegion: 2,
   ogImage: '/assets/img/og-gruafacil.png',

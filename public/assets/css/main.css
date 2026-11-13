@@ -252,3 +252,9 @@ input:focus, select:focus, textarea:focus { border-color: var(--brand); outline:
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* ---------- Comunas cercanas ---------- */
+.nearby { list-style: none; margin: 0 0 16px; padding: 0; display: grid; gap: 10px; }
+.nearby li { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
+.nearby a { font-weight: 700; }
+.nearby-emp { display: block; margin-top: 4px; font-size: .9rem; }

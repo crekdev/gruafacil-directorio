@@ -20,7 +20,26 @@
   </div>
 </section>
 
-<section class="section section-soft" id="al-llamar" aria-labelledby="llamar-titulo">
+<section class="section section-soft" id="cercanas" aria-labelledby="cercanas-titulo">
+  <div class="wrap narrow">
+    <h2 id="cercanas-titulo">Ubicación y comunas cercanas a {{ comuna.nombre }}</h2>
+    <p>{{ ubicacionTexto }}</p>
+    {{#if cercanas}}
+    <ul class="nearby">
+      {{#each cercanas as x}}
+      <li>
+        <a href="{{ x.url }}">Grúa en {{ x.nombre }}</a>
+        <span class="muted">· a {{ x.km }} · {{ x.servicios }}</span>
+        {{#if x.empresasTexto}}<span class="nearby-emp muted">Con base allí: {{ x.empresasTexto }}.</span>{{/if}}
+      </li>
+      {{/each}}
+    </ul>
+    {{/if}}
+    <p class="muted disclaimer">Distancias en línea recta entre puntos de referencia de cada comuna; el recorrido real por calles y autopistas es mayor. Úsalas solo como referencia.</p>
+  </div>
+</section>
+
+<section class="section" id="al-llamar" aria-labelledby="llamar-titulo">
   <div class="wrap narrow">
     <h2 id="llamar-titulo">Qué tener a mano al llamar a una grúa en {{ comuna.nombre }}</h2>
     <ol class="steps">
