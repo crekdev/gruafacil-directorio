@@ -4,7 +4,7 @@
     <h1>{{ h1 }}</h1>
     <p class="lead">{{ lead }}</p>
     {{#if resumen}}<div class="summary" role="note"><strong>En breve:</strong> {{ resumen }}</div>{{/if}}
-    <p class="updated">Actualizado: {{ actualizado }}</p>
+    <p class="updated">Actualizado: <time class="js-hoy">{{ actualizado }}</time></p>
     {{#if toc}}
     <nav class="toc" aria-label="En esta página">
       <p>En esta página</p>
@@ -25,6 +25,15 @@
 </section>
 {{/each}}
 
-{{#if mostrarComunas}}{{> comunas-links}}{{/if}}
+{{#if mostrarComunas}}
+<section class="section section-soft" aria-labelledby="regiones-guia-titulo">
+  <div class="wrap">
+    <h2 id="regiones-guia-titulo">Encuentra una grúa en tu comuna</h2>
+    <p>Elige tu región y luego tu comuna para ver las empresas con teléfono:
+      {{#each site.regiones as r}}<a href="{{ r.url }}">{{ r.nombre }}</a>{{#if !last}} · {{/if}}{{/each}}.
+    </p>
+  </div>
+</section>
+{{/if}}
 {{> faq}}
 {{#if ctaEmpresas}}{{> cta-empresas}}{{/if}}

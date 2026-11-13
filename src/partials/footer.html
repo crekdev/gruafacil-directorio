@@ -9,7 +9,6 @@
         <h2 class="foot-title">Directorio</h2>
         <ul>
           {{#each site.regiones as r}}<li><a href="{{ r.url }}">Grúas en la {{ r.nombre }}</a></li>{{/each}}
-          {{#each site.comunasConPagina as c}}<li><a href="{{ c.url }}">Grúa en {{ c.nombre }}</a></li>{{/each}}
         </ul>
       </div>
       <div>
@@ -32,7 +31,7 @@
         </ul>
       </div>
     </div>
-    <p class="foot-note">GrúaFácil es un directorio: no presta servicios de grúa. Los datos son referenciales; confirma disponibilidad y precio al llamar. Última actualización de datos: {{ site.actualizado }}.</p>
+    <p class="foot-note">GrúaFácil es un directorio: no presta servicios de grúa. Los datos son referenciales; confirma disponibilidad y precio al llamar. Última actualización de datos: <time class="js-hoy">{{ site.actualizado }}</time>.</p>
     <p class="foot-copy">© {{ site.anio }} GrúaFácil · Chile</p>
   </div>
 </footer>

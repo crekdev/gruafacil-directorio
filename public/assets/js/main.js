@@ -61,6 +61,18 @@
   } catch (e) { /* navegador sin URLSearchParams */ }
 
   /* 5) Fuente Sen y Google Tag Manager, después de que la página cargó */
+  /* Fecha "Actualizado": muestra la fecha de hoy (hora de Chile) cada vez que se abre la página.
+        Si el navegador no puede, queda la fecha escrita al construir el sitio. */
+  try {
+    var fmtLargo = new Intl.DateTimeFormat('es-CL', { dateStyle: 'long', timeZone: 'America/Santiago' });
+    var fmtIso = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Santiago' });
+    var hoy = new Date();
+    document.querySelectorAll('.js-hoy').forEach(function (el) {
+      el.textContent = fmtLargo.format(hoy);
+      el.setAttribute('datetime', fmtIso.format(hoy));
+    });
+  } catch (e) { /* sin cambios */ }
+
   function cargarFuente() {
     var l = document.createElement('link');
     l.rel = 'stylesheet';
